@@ -1,6 +1,6 @@
 {
   "paper": "paper/MitoSync.pdf",
-  "paper_sha256": "d4e0c26a2706aa746dbfacd2286c1e2d469df88ff1415866862995153731aa95",
+  "paper_sha256": "2a99ab7d2e47e25cc14b8fcb8e725228c9b8d7d363c758161b01f916ff22f651",
   "tables": [
     {
       "table": 1,
@@ -30,7 +30,7 @@
           ".512 \u00b1 .024"
         ],
         [
-          "+ MitoSync",
+          "+ synthetic",
           ".797 \u00b1 .010",
           ".571 \u00b1 .011",
           ".472 \u00b1 .026",
@@ -85,7 +85,7 @@
           ".831 \u00b1 .003"
         ],
         [
-          "Full + MitoSync",
+          "Full + synthetic",
           ".879 \u00b1 .003",
           ".679 \u00b1 .002",
           ".749 \u00b1 .005",
@@ -107,7 +107,7 @@
           ".848 \u00b1 .004"
         ],
         [
-          "Pair + MitoSync",
+          "Pair + synthetic",
           ".888 \u00b1 .006",
           ".682 \u00b1 .004",
           ".755 \u00b1 .003",

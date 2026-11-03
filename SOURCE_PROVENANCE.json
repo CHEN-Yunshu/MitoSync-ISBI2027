@@ -542,18 +542,18 @@
     "source": "v72_snapshot/audit/upstream/LICENSE"
   },
   "paper/MitoSync.pdf": {
-    "original_sha256": "d4e0c26a2706aa746dbfacd2286c1e2d469df88ff1415866862995153731aa95",
-    "packaged_sha256": "d4e0c26a2706aa746dbfacd2286c1e2d469df88ff1415866862995153731aa95",
+    "original_sha256": "2a99ab7d2e47e25cc14b8fcb8e725228c9b8d7d363c758161b01f916ff22f651",
+    "packaged_sha256": "2a99ab7d2e47e25cc14b8fcb8e725228c9b8d7d363c758161b01f916ff22f651",
     "path_portability_edit": false,
-    "source": "paper/isbi/main_isbi_v75_20261103.pdf"
+    "source": "paper/isbi/main_isbi_v76_20261103.pdf"
   },
   "paper/latex_source.zip": {
-    "packaged_sha256": "79c6c01057a5d37a00b6ae591749cd66c35597507c6d413844c107f57211c7ba",
+    "packaged_sha256": "b01d688203715ab390110d74e60f32aa8d1bba10d8d9072f83edf49f381706e4",
     "release_edits": [
       "Remove manuscript and bibliography comments; bundle only used source and figures"
     ],
-    "source": "paper/isbi/main_isbi_v75_20261103.tex",
-    "source_sha256": "2e88a926a1f816f0350db55ee8b8a218fc6b826731469107c79e2b3e3bafd366"
+    "source": "paper/isbi/main_isbi_v76_20261103.tex",
+    "source_sha256": "1298772686dca2670948393234070494b4283845d0cd1ee63d628ab2d0a28c82"
   },
   "reproducibility/audit/FN_SHARES.json": {
     "original_sha256": "1e5d26fc1f354d3665f9e3b67326768288291ebd400e560c5b2c273c30f15cfe",

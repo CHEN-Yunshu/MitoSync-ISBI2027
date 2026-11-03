@@ -8,15 +8,16 @@ Yunshu Chen · Zhenhua Chen · Deval Mehta · Litao Yang · Zongyuan Ge
 
 MitoSync combines exchange-invariant mother–daughter scoring with joint division
 and continuation decoding. A complementary pipeline programs cell divisions,
-renders microscopy video and aligns supervision with detected events.
+renders microscopy video and aligns supervision with detected events. In the
+paper tables, “+ synthetic” denotes training data from this M1–M3 pipeline.
 
 ![MitoSync architecture](assets/architecture.png)
 
 ## Main results
 
-On the two CTC evaluation sequences, Full + MitoSync improves sparse division F1
-by **5.25 points on PSC** and **7.93 points on Fluo** relative to the Trackastra
-graph reference. The real-only Pair model gains **5.24/7.95 points**, respectively.
+On the two CTC evaluation sequences, the real-only Pair model improves sparse
+division F1 by **5.24 points on PSC** and **7.95 points on Fluo** relative to the
+Trackastra graph reference. Full + synthetic gains **5.25/7.93 points**, respectively.
 On 36 external LFCT fields, the frozen real-only model improves sparse event F1 by **4.05 points**. Native LFCT gains are not
 established. These are association comparisons, distinct from synthetic-training
 effects. Full uses both heads; Pair omits the optional parent head.
