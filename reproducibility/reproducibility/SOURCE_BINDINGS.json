@@ -1,0 +1,92 @@
+{
+  "triplets.py": {
+    "repository_source": "code/mitosync/division_triplet_20261025/triplets.py",
+    "original_sha256": "b0b32921d04734b7dabe8877cb99039d5c9fdbdfb56907a85d027ab3518dc9c1",
+    "packaged_sha256": "b0b32921d04734b7dabe8877cb99039d5c9fdbdfb56907a85d027ab3518dc9c1",
+    "path_redacted": false
+  },
+  "model.py": {
+    "repository_source": "code/mitosync/division_triplet_20261025/model.py",
+    "original_sha256": "9f5e80683ae333ffa3a5b68bab8886a3ca054b61fcd54ba2a91f42b3b5fa14ef",
+    "packaged_sha256": "9f5e80683ae333ffa3a5b68bab8886a3ca054b61fcd54ba2a91f42b3b5fa14ef",
+    "path_redacted": false
+  },
+  "test_triplets.py": {
+    "repository_source": "code/mitosync/division_triplet_20261025/test_triplets.py",
+    "original_sha256": "96421be5d1c6a53a70278c5ea85388b3c858d2531c3f03c9774178cec4368cbe",
+    "packaged_sha256": "96421be5d1c6a53a70278c5ea85388b3c858d2531c3f03c9774178cec4368cbe",
+    "path_redacted": false
+  },
+  "features.py": {
+    "repository_source": "code/mitosync/multirate_parent_20261025/features.py",
+    "original_sha256": "7782bf2d57f09637dcacea2a12c8284ae5ce962f603733c31ba80c9af11ff6e8",
+    "packaged_sha256": "7782bf2d57f09637dcacea2a12c8284ae5ce962f603733c31ba80c9af11ff6e8",
+    "path_redacted": false
+  },
+  "encoder.py": {
+    "repository_source": "code/mitosync/multirate_parent_20261025/encoder.py",
+    "original_sha256": "783058cf5f3138f267cef4c907db5bbd1a6dc2c9857e740011eed09548ad1373",
+    "packaged_sha256": "783058cf5f3138f267cef4c907db5bbd1a6dc2c9857e740011eed09548ad1373",
+    "path_redacted": false
+  },
+  "lineage_projection.py": {
+    "repository_source": "code/mitosync/multirate_parent_20261025/lineage_projection.py",
+    "original_sha256": "18669348005b685813b914cece12b0787a922b86408e9c6758258ec6b5f8b04a",
+    "packaged_sha256": "18669348005b685813b914cece12b0787a922b86408e9c6758258ec6b5f8b04a",
+    "path_redacted": false
+  },
+  "targets.py": {
+    "repository_source": "code/mitosync/parent_fullview_20261024/data_source/targets.py",
+    "original_sha256": "977658334cfaaba8dae1484e8cef6da9d79fcf6842d957f5503f12599e5bdf49",
+    "packaged_sha256": "977658334cfaaba8dae1484e8cef6da9d79fcf6842d957f5503f12599e5bdf49",
+    "path_redacted": false
+  },
+  "lfct_metrics.py": {
+    "repository_source": "code/mitosync/reviewer_sprint_20261101/lfct_metrics.py",
+    "original_sha256": "d6d16558f389dc6a18cf7ad88e9097949e4fed8be726d6ff190ef33be1d34c09",
+    "packaged_sha256": "d6d16558f389dc6a18cf7ad88e9097949e4fed8be726d6ff190ef33be1d34c09",
+    "path_redacted": false
+  },
+  "test_lfct_metrics.py": {
+    "repository_source": "code/mitosync/reviewer_sprint_20261101/test_lfct_metrics.py",
+    "original_sha256": "890047aed36177236e1b3c60756a1aaa4c610f47173663022f072080609d8b0b",
+    "packaged_sha256": "890047aed36177236e1b3c60756a1aaa4c610f47173663022f072080609d8b0b",
+    "path_redacted": false
+  },
+  "pair_training.py": {
+    "repository_source": "code/mitosync/division_triplet_20261025/train.py",
+    "original_sha256": "04a763734bc7b788f7acbb5d4f28ca69e0b5dd66542038b7d3e8582529737455",
+    "packaged_sha256": "88fe39d93d8d4ff4eb4b626f905bb9fed68035c71842ab0fc1c79c6760c1c08a",
+    "path_redacted": true
+  },
+  "encoder_training.py": {
+    "repository_source": "code/mitosync/pixel_div_20261018/train.py",
+    "original_sha256": "b33924037341c67794d12ca62f53f361546e7d3b5740da396d0581ae7f9f2536",
+    "packaged_sha256": "b33924037341c67794d12ca62f53f361546e7d3b5740da396d0581ae7f9f2536",
+    "path_redacted": false
+  },
+  "encoder_common.py": {
+    "repository_source": "code/mitosync/pixel_div_20261018/common.py",
+    "original_sha256": "4a5cb9962647346af78fd392bf4c437fb16691e46a4b7a5d3aaf5545f784b479",
+    "packaged_sha256": "daba1b4f6158f39696c39e0b4bfa5b36ef2b44158f23b19b569405f5abbde271",
+    "path_redacted": true
+  },
+  "encoder_candidates.py": {
+    "repository_source": "code/mitosync/pixel_div_20261018/build_candidates.py",
+    "original_sha256": "dd61180287e247fa40bfbbfa16b526f382f787d1fbe99b8683e9baedbf985b3d",
+    "packaged_sha256": "ce640fefd30c1ae597a1be3f1774857e7afedc4f82175f47990bdf90a985ee26",
+    "path_redacted": true
+  },
+  "lfct_evaluation.py": {
+    "repository_source": "code/mitosync/reviewer_sprint_20261101/lfct_external_v2.py",
+    "original_sha256": "1ac84004635ac6138387d9a2da00f364372177deb1f1e66acd7d2f004af25a0b",
+    "packaged_sha256": "940f9615d7bb9071d3816466519fd597cd34a19522bcd5ed953a87cbda9599c5",
+    "path_redacted": true
+  },
+  "lfct_aggregation.py": {
+    "repository_source": "code/mitosync/reviewer_sprint_20261101/lfct_readback_v2.py",
+    "original_sha256": "f3cb62ba11a16fbb4e1fe14673b4231d154e364bf2aefb162649a44fc9480167",
+    "packaged_sha256": "2501eee9e0daaa33fff37cb868b9d563b08025f76aa7cf1e58366fa08ab3bea8",
+    "path_redacted": true
+  }
+}

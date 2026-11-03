@@ -1,0 +1,25 @@
+{
+  "datasets": {
+    "psc": {
+      "lora_wall_seconds": 19481,
+      "generation_seconds_including_retries": 18430.100000000002,
+      "generation_attempts": 584,
+      "readout_seconds_including_retries": 8469.099999999999,
+      "paint_200_clip_seconds": 449.2999999999996,
+      "chunk_job_wall_seconds": 28713.0,
+      "description": "LoRA wall time from explicit log timer. Generation includes all retry rounds. Readout sums explicitly logged per-clip Cellpose time. Chunk elapsed time comes from log start/end timestamps (not file mtimes); residual includes readout, relabeling, model loading, export and other overhead. These are job-seconds, not measured accelerator utilization or parallel elapsed time."
+    },
+    "fluo": {
+      "lora_wall_seconds": 19435,
+      "generation_seconds_including_retries": 14296.899999999996,
+      "generation_attempts": 352,
+      "readout_seconds_including_retries": 7054.699999999996,
+      "paint_200_clip_seconds": 461.59999999999985,
+      "chunk_job_wall_seconds": 22450.0,
+      "description": "LoRA wall time from explicit log timer. Generation includes all retry rounds. Readout sums explicitly logged per-clip Cellpose time. Chunk elapsed time comes from log start/end timestamps (not file mtimes); residual includes readout, relabeling, model loading, export and other overhead. These are job-seconds, not measured accelerator utilization or parallel elapsed time."
+    }
+  },
+  "hardware": "NVIDIA RTX PRO 6000 Blackwell Server Edition, 96 GB, four devices; documented 2026-10-09 and 2026-10-12",
+  "execution": "GPU LoRA/video generation, concurrent generation chunks; CPU painting; readout durations from explicit per-clip log timers.",
+  "limitations": "Server configuration is historically documented; individual per-job GPU model and utilization are not logged. Do not divide summed component times by CPU painting time to infer a controlled acceleration ratio."
+}

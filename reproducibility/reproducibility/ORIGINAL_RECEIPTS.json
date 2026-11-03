@@ -1,0 +1,7 @@
+{
+  "reports/pair_geometry_20261029/SUMMARY.json": "4777a77394d82e910895527d27403145e2c9b34a89e78dc032b5f54817687eb6",
+  "reports/pair_geometry_20261029/VERIFIED.json": "b1a2a7211994793a1385895d30accd8c582a3722eff1d2242692455e7315f4ab",
+  "reports/reviewer_resolution_20261103/repro_cost/LFCT_PER_VIEW_COUNTS.jsonl": "b83c7089328893137bbd005421b9e7a8a28260cf3b52968f24b88765d1362359",
+  "reports/reviewer_resolution_20261103/repro_cost/LFCT_COHORT.json": "81e57f7e82e23ef09413cf5d17653ed19353dc497e59351d7f11f941824165e3",
+  "reports/reviewer_resolution_20261103/repro_cost/LFCT_FIELD_REASONS.json": "5c7fea9b208e0165e3a97d084c36d17d80eaf4fed747ae08e78be02b86395d0d"
+}

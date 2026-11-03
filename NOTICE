@@ -1,0 +1,17 @@
+MitoSync research code and reproducibility materials
+
+A project-wide reuse license has not yet been assigned. Public availability does
+not replace the licenses of separately identified third-party components.
+
+code/vace/train.py derives from the Wan video training example in DiffSynth-Studio
+(https://github.com/modelscope/DiffSynth-Studio). It was modified for MitoSync.
+The upstream Apache-2.0 license is in licenses/DiffSynth-Studio-Apache-2.0.txt.
+
+The pinned Trackastra 0.5.3 source under reproducibility/audit/upstream/ is
+redistributed under its BSD 3-Clause license; the copyright and license are
+preserved there and in licenses/Trackastra-BSD-3-Clause.txt.
+
+External dependencies and model backbones are obtained separately under their
+respective terms. No Wan2.1-VACE or Cellpose-SAM weights are redistributed here.
+CTC/LFCT source datasets and the full synthetic corpus are not bundled. See
+docs/DATA.md. Real reference images in the manuscript are not synthetic samples.

@@ -1,0 +1,532 @@
+[
+  {
+    "case": "LFCT-mcf10a-10x-FLD_3",
+    "admitted": true,
+    "held": false,
+    "complete": {
+      "1": true,
+      "8": true
+    },
+    "reason": "included"
+  },
+  {
+    "case": "LFCT-mcf10a-10x-FLD_4",
+    "admitted": true,
+    "held": false,
+    "complete": {
+      "1": true,
+      "8": true
+    },
+    "reason": "included"
+  },
+  {
+    "case": "LFCT-mcf10a-10x-FLD_5",
+    "admitted": true,
+    "held": false,
+    "complete": {
+      "1": true,
+      "8": true
+    },
+    "reason": "included"
+  },
+  {
+    "case": "LFCT-mcf10a-10x-FLD_6",
+    "admitted": true,
+    "held": false,
+    "complete": {
+      "1": true,
+      "8": true
+    },
+    "reason": "included"
+  },
+  {
+    "case": "LFCT-mcf10a-10x-FLD_7",
+    "admitted": true,
+    "held": false,
+    "complete": {
+      "1": true,
+      "8": true
+    },
+    "reason": "included"
+  },
+  {
+    "case": "LFCT-mcf10a-10x-FLD_8",
+    "admitted": true,
+    "held": false,
+    "complete": {
+      "1": true,
+      "8": true
+    },
+    "reason": "included"
+  },
+  {
+    "case": "LFCT-mcf10a-10x-FLD_9",
+    "admitted": true,
+    "held": false,
+    "complete": {
+      "1": true,
+      "8": true
+    },
+    "reason": "included"
+  },
+  {
+    "case": "LFCT-mcf10a-10x-FLD_10",
+    "admitted": true,
+    "held": false,
+    "complete": {
+      "1": true,
+      "8": true
+    },
+    "reason": "included"
+  },
+  {
+    "case": "LFCT-mcf10a-10x-FLD_11",
+    "admitted": true,
+    "held": false,
+    "complete": {
+      "1": true,
+      "8": true
+    },
+    "reason": "included"
+  },
+  {
+    "case": "LFCT-mcf10a-20x-FLD_102",
+    "admitted": true,
+    "held": true,
+    "complete": {
+      "1": false,
+      "8": false
+    },
+    "reason": "multiple-parent annotations"
+  },
+  {
+    "case": "LFCT-mcf10a-20x-FLD_103",
+    "admitted": true,
+    "held": false,
+    "complete": {
+      "1": true,
+      "8": true
+    },
+    "reason": "included"
+  },
+  {
+    "case": "LFCT-mcf10a-20x-FLD_104",
+    "admitted": true,
+    "held": false,
+    "complete": {
+      "1": true,
+      "8": true
+    },
+    "reason": "included"
+  },
+  {
+    "case": "LFCT-mcf10a-20x-FLD_106",
+    "admitted": true,
+    "held": false,
+    "complete": {
+      "1": true,
+      "8": true
+    },
+    "reason": "included"
+  },
+  {
+    "case": "LFCT-mcf10a-20x-FLD_107",
+    "admitted": true,
+    "held": true,
+    "complete": {
+      "1": false,
+      "8": false
+    },
+    "reason": "multiple-parent annotations"
+  },
+  {
+    "case": "LFCT-mcf10a-20x-FLD_108",
+    "admitted": true,
+    "held": false,
+    "complete": {
+      "1": true,
+      "8": true
+    },
+    "reason": "included"
+  },
+  {
+    "case": "LFCT-mcf10a-20x-FLD_110",
+    "admitted": true,
+    "held": false,
+    "complete": {
+      "1": true,
+      "8": true
+    },
+    "reason": "included"
+  },
+  {
+    "case": "LFCT-mcf10a-20x-FLD_111",
+    "admitted": true,
+    "held": true,
+    "complete": {
+      "1": false,
+      "8": false
+    },
+    "reason": "multiple-parent annotations"
+  },
+  {
+    "case": "LFCT-mcf10a-20x-FLD_113",
+    "admitted": true,
+    "held": false,
+    "complete": {
+      "1": true,
+      "8": true
+    },
+    "reason": "included"
+  },
+  {
+    "case": "LFCT-hek293-10x-FLD_1",
+    "admitted": true,
+    "held": true,
+    "complete": {
+      "1": false,
+      "8": false
+    },
+    "reason": "multiple-parent annotations"
+  },
+  {
+    "case": "LFCT-hek293-10x-FLD_2",
+    "admitted": true,
+    "held": false,
+    "complete": {
+      "1": true,
+      "8": true
+    },
+    "reason": "included"
+  },
+  {
+    "case": "LFCT-hek293-10x-FLD_3",
+    "admitted": false,
+    "held": null,
+    "complete": {
+      "1": false,
+      "8": false
+    },
+    "reason": "Archive frame count differs from XML ImageData.nframes. Correct temporal alignment is unverified; no truncation, shift or relabeling attempted."
+  },
+  {
+    "case": "LFCT-hek293-10x-FLD_4",
+    "admitted": false,
+    "held": null,
+    "complete": {
+      "1": false,
+      "8": false
+    },
+    "reason": "Archive frame count differs from XML ImageData.nframes. Correct temporal alignment is unverified; no truncation, shift or relabeling attempted."
+  },
+  {
+    "case": "LFCT-hek293-10x-FLD_5",
+    "admitted": false,
+    "held": null,
+    "complete": {
+      "1": false,
+      "8": false
+    },
+    "reason": "Archive frame count differs from XML ImageData.nframes. Correct temporal alignment is unverified; no truncation, shift or relabeling attempted."
+  },
+  {
+    "case": "LFCT-hek293-10x-FLD_6",
+    "admitted": false,
+    "held": null,
+    "complete": {
+      "1": false,
+      "8": false
+    },
+    "reason": "Archive frame count differs from XML ImageData.nframes. Correct temporal alignment is unverified; no truncation, shift or relabeling attempted."
+  },
+  {
+    "case": "LFCT-hek293-10x-FLD_7",
+    "admitted": true,
+    "held": false,
+    "complete": {
+      "1": true,
+      "8": true
+    },
+    "reason": "included"
+  },
+  {
+    "case": "LFCT-hek293-10x-FLD_8",
+    "admitted": true,
+    "held": false,
+    "complete": {
+      "1": true,
+      "8": true
+    },
+    "reason": "included"
+  },
+  {
+    "case": "LFCT-hek293-20x-FLD_2",
+    "admitted": true,
+    "held": false,
+    "complete": {
+      "1": true,
+      "8": true
+    },
+    "reason": "included"
+  },
+  {
+    "case": "LFCT-hek293-20x-FLD_5",
+    "admitted": true,
+    "held": false,
+    "complete": {
+      "1": true,
+      "8": true
+    },
+    "reason": "included"
+  },
+  {
+    "case": "LFCT-hek293-20x-FLD_8",
+    "admitted": false,
+    "held": null,
+    "complete": {
+      "1": false,
+      "8": false
+    },
+    "reason": "Every source image frame is spatially constant; no usable RFP signal. No replacement channel selected."
+  },
+  {
+    "case": "LFCT-hek293-20x-FLD_14",
+    "admitted": true,
+    "held": true,
+    "complete": {
+      "1": false,
+      "8": false
+    },
+    "reason": "multiple-parent annotations"
+  },
+  {
+    "case": "LFCT-hek293-20x-FLD_23",
+    "admitted": true,
+    "held": true,
+    "complete": {
+      "1": false,
+      "8": false
+    },
+    "reason": "multiple-parent annotations"
+  },
+  {
+    "case": "LFCT-hek293-20x-FLD_29",
+    "admitted": true,
+    "held": true,
+    "complete": {
+      "1": false,
+      "8": false
+    },
+    "reason": "multiple-parent annotations"
+  },
+  {
+    "case": "LFCT-mdamb-10x-FLD_10",
+    "admitted": true,
+    "held": false,
+    "complete": {
+      "1": true,
+      "8": true
+    },
+    "reason": "included"
+  },
+  {
+    "case": "LFCT-mdamb-10x-FLD_11",
+    "admitted": true,
+    "held": false,
+    "complete": {
+      "1": true,
+      "8": true
+    },
+    "reason": "included"
+  },
+  {
+    "case": "LFCT-mdamb-10x-FLD_12",
+    "admitted": true,
+    "held": false,
+    "complete": {
+      "1": true,
+      "8": true
+    },
+    "reason": "included"
+  },
+  {
+    "case": "LFCT-mdamb-10x-FLD_13",
+    "admitted": true,
+    "held": true,
+    "complete": {
+      "1": false,
+      "8": false
+    },
+    "reason": "multiple-parent annotations"
+  },
+  {
+    "case": "LFCT-mdamb-10x-FLD_15",
+    "admitted": true,
+    "held": false,
+    "complete": {
+      "1": true,
+      "8": true
+    },
+    "reason": "included"
+  },
+  {
+    "case": "LFCT-mdamb-10x-FLD_18",
+    "admitted": true,
+    "held": false,
+    "complete": {
+      "1": true,
+      "8": true
+    },
+    "reason": "included"
+  },
+  {
+    "case": "LFCT-mdamb-10x-FLD_19",
+    "admitted": true,
+    "held": false,
+    "complete": {
+      "1": true,
+      "8": true
+    },
+    "reason": "included"
+  },
+  {
+    "case": "LFCT-mdamb-20x-FLD_1",
+    "admitted": true,
+    "held": false,
+    "complete": {
+      "1": true,
+      "8": true
+    },
+    "reason": "included"
+  },
+  {
+    "case": "LFCT-mdamb-20x-FLD_2",
+    "admitted": true,
+    "held": false,
+    "complete": {
+      "1": true,
+      "8": true
+    },
+    "reason": "included"
+  },
+  {
+    "case": "LFCT-mdamb-20x-FLD_3",
+    "admitted": true,
+    "held": false,
+    "complete": {
+      "1": true,
+      "8": true
+    },
+    "reason": "included"
+  },
+  {
+    "case": "LFCT-mdamb-20x-FLD_4",
+    "admitted": true,
+    "held": false,
+    "complete": {
+      "1": true,
+      "8": true
+    },
+    "reason": "included"
+  },
+  {
+    "case": "LFCT-mdamb-20x-FLD_5",
+    "admitted": true,
+    "held": false,
+    "complete": {
+      "1": true,
+      "8": true
+    },
+    "reason": "included"
+  },
+  {
+    "case": "LFCT-mdamb-20x-FLD_6",
+    "admitted": true,
+    "held": false,
+    "complete": {
+      "1": true,
+      "8": true
+    },
+    "reason": "included"
+  },
+  {
+    "case": "LFCT-u87-10x-FLD_12",
+    "admitted": true,
+    "held": false,
+    "complete": {
+      "1": true,
+      "8": true
+    },
+    "reason": "included"
+  },
+  {
+    "case": "LFCT-u87-10x-FLD_13",
+    "admitted": true,
+    "held": true,
+    "complete": {
+      "1": false,
+      "8": false
+    },
+    "reason": "multiple-parent annotations"
+  },
+  {
+    "case": "LFCT-u87-10x-FLD_17",
+    "admitted": true,
+    "held": false,
+    "complete": {
+      "1": true,
+      "8": true
+    },
+    "reason": "included"
+  },
+  {
+    "case": "LFCT-u87-10x-FLD_19",
+    "admitted": true,
+    "held": true,
+    "complete": {
+      "1": false,
+      "8": false
+    },
+    "reason": "multiple-parent annotations"
+  },
+  {
+    "case": "LFCT-u87-20x-FLD_1",
+    "admitted": false,
+    "held": null,
+    "complete": {
+      "1": false,
+      "8": false
+    },
+    "reason": "source unavailable in the frozen cohort"
+  },
+  {
+    "case": "LFCT-u87-20x-FLD_2",
+    "admitted": true,
+    "held": false,
+    "complete": {
+      "1": true,
+      "8": true
+    },
+    "reason": "included"
+  },
+  {
+    "case": "LFCT-u87-20x-FLD_3",
+    "admitted": true,
+    "held": true,
+    "complete": {
+      "1": false,
+      "8": false
+    },
+    "reason": "multiple-parent annotations"
+  },
+  {
+    "case": "LFCT-u87-20x-FLD_4",
+    "admitted": true,
+    "held": false,
+    "complete": {
+      "1": true,
+      "8": true
+    },
+    "reason": "included"
+  }
+]

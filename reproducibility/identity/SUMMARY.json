@@ -1,0 +1,118 @@
+{
+  "client_date": "2026-11-03",
+  "groups": {
+    "all": {
+      "n": 8,
+      "visible_positive": 8,
+      "verdicts": {
+        "same_mother_two_daughters": 8
+      },
+      "outcomes": {
+        "kept": 5,
+        "delayed": 3
+      },
+      "by_label": {
+        "original": {
+          "status_counts": {
+            "exact_triplet": 7,
+            "within_family_timing_or_duplicate_id": 1
+          },
+          "exact_triplets": 7,
+          "mother_matches": 8,
+          "daughter_pair_matches": 7
+        },
+        "corrected": {
+          "status_counts": {
+            "exact_triplet": 7,
+            "within_family_timing_or_duplicate_id": 1
+          },
+          "exact_triplets": 7,
+          "mother_matches": 8,
+          "daughter_pair_matches": 7
+        }
+      }
+    },
+    "early_daughters": {
+      "n": 6,
+      "visible_positive": 6,
+      "verdicts": {
+        "same_mother_two_daughters": 6
+      },
+      "outcomes": {
+        "kept": 3,
+        "delayed": 3
+      },
+      "by_label": {
+        "original": {
+          "status_counts": {
+            "exact_triplet": 6
+          },
+          "exact_triplets": 6,
+          "mother_matches": 6,
+          "daughter_pair_matches": 6
+        },
+        "corrected": {
+          "status_counts": {
+            "exact_triplet": 6
+          },
+          "exact_triplets": 6,
+          "mother_matches": 6,
+          "daughter_pair_matches": 6
+        }
+      }
+    },
+    "late_mother": {
+      "n": 2,
+      "visible_positive": 2,
+      "verdicts": {
+        "same_mother_two_daughters": 2
+      },
+      "outcomes": {
+        "kept": 2
+      },
+      "by_label": {
+        "original": {
+          "status_counts": {
+            "exact_triplet": 1,
+            "within_family_timing_or_duplicate_id": 1
+          },
+          "exact_triplets": 1,
+          "mother_matches": 2,
+          "daughter_pair_matches": 1
+        },
+        "corrected": {
+          "status_counts": {
+            "exact_triplet": 1,
+            "within_family_timing_or_duplicate_id": 1
+          },
+          "exact_triplets": 1,
+          "mother_matches": 2,
+          "daughter_pair_matches": 1
+        }
+      }
+    }
+  },
+  "reviewer_count": 1,
+  "same_reviewer_as_original_72": true,
+  "prior_automatic_exposure": "no",
+  "source_sha256": "95378beee31758651ff12f54d3ce3c4ff331ef15b10d5959bf52d5446913a345",
+  "protocol_sha256": "fbea5e32409b5cd5d187a546642bfe786989b667130a6507e507b0afa4ea23a8",
+  "raw_answer_sha256": "3fa8b0c280f6da1baf3f4455f8a47d01f17faf83d89e3d4dbec6b0450185b98e",
+  "original_72_sha256": "fc49b57eb1d5fdf456dbc306bd99798402d3b579e2855de9981af04572d9c886",
+  "automatic_manifest_sha256": "746c768756bca4017da681d1778b9234a6524c0a3e386c8ca386d88c22bf57e2",
+  "automatic_npz_sha256": [
+    "18949880fa86d2ce61044c90373e2c436ac88dfd3873290ff49d4adad72e86c1",
+    "29fb40495d92691e1837286dda96e3237bdd2c88bf9ca195a6a46f199241d33a",
+    "31db6b97d7f8250da811a5d8b2281a538e49a43457ea0eab67f4b214fde0c33d",
+    "42500cca033362d7077da3e2c132346b45b0236d5d986c6ca2f5591b65bbec7f",
+    "7ede6f8980a6b77f3ef19e6c9490e15dfcfcfbd99a746f6df39a71905045e57c",
+    "baa5235f13e0b873685332d3f73472a418d618d2e273a428f2decbfe2d566492",
+    "f32d247bca8d491de32020dd135ba04945a1aca532b356952ba76320af418f51",
+    "f93520d9b067e9f8214b8555448b3175e79f93dd06f9846768029dc40d90daaf"
+  ],
+  "selected_before_followup_answers": true,
+  "selection_is_conditional": true,
+  "all_eight_in_denominator": true,
+  "raw_human_data_local_only": true,
+  "inference": "Conditional eight-case diagnostic only. No population accuracy estimate or significance test; no pooling with the original 17/39 to estimate accuracy."
+}

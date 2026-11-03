@@ -1,0 +1,15 @@
+attn_dist_mode: v0
+attn_positional_bias: rope
+attn_positional_bias_n_spatial: 16
+causal_norm: quiet_softmax
+coord_dim: 2
+d_model: 256
+dropout: 0.0
+feat_dim: 7
+feat_embed_per_dim: 8
+nhead: 4
+num_decoder_layers: 5
+num_encoder_layers: 5
+pos_embed_per_dim: 32
+spatial_pos_cutoff: 256
+window: 6

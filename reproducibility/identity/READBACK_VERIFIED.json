@@ -1,0 +1,18 @@
+{
+  "status": "PASS_INDEPENDENT_READBACK",
+  "cases": 8,
+  "summary_sha256": "d87845e53ab55a61e1947857140456fbab3341e4e0cef58746a3048740e9b200",
+  "raw_answer_sha256": "3fa8b0c280f6da1baf3f4455f8a47d01f17faf83d89e3d4dbec6b0450185b98e",
+  "source_sha256": "eb27ce337f1c49d535e5096c0c5474888ac3ecd33d7ebf1df186b483fe6a03bc",
+  "counts": {
+    "original_exact": 7,
+    "corrected_exact": 7
+  },
+  "endpoint_conflicts": {
+    "original_same_daughter_id_at_both_clicks": 1,
+    "corrected_same_daughter_id_at_both_clicks": 1
+  },
+  "classification": "The unmatched case has two human daughter points assigned to one daughter ID in both original and corrected labels; the other expected daughter ID also exists in frame16. No automatic point relocation or adjudication.",
+  "original_answers_modified": false,
+  "raw_human_data_uploaded": false
+}

@@ -1,0 +1,166 @@
+{
+  "inference.py": {
+    "repository_source": "code/mitosync/division_triplet_20261025/inference.py",
+    "original_sha256": "7871765b8a39e45a15ec211df63b8c9964b3ac6abb7f65967b50a0d0cd4c8195",
+    "packaged_sha256": "7871765b8a39e45a15ec211df63b8c9964b3ac6abb7f65967b50a0d0cd4c8195",
+    "path_redacted": false,
+    "historical_hash_records": [
+      {
+        "receipt": "reports/division_triplet_20261025/fullview_v1/PREPARED.json",
+        "receipt_sha256": "a011f54056e895e11f03cb5c141a37781e400af6e65ca559b3c08ef337646783"
+      }
+    ]
+  },
+  "graph_native.py": {
+    "repository_source": "code/mitosync/parent_fullview_20261024/evaluation_source/run.py",
+    "original_sha256": "1a49b86b4c3ad531a39f352ccbb6794e49c7619c1733dddde5fa3ce5e1e4c3bb",
+    "packaged_sha256": "1a49b86b4c3ad531a39f352ccbb6794e49c7619c1733dddde5fa3ce5e1e4c3bb",
+    "path_redacted": false,
+    "historical_hash_records": [
+      {
+        "receipt": "reports/division_triplet_20261025/fullview_v1/PREPARED.json",
+        "receipt_sha256": "a011f54056e895e11f03cb5c141a37781e400af6e65ca559b3c08ef337646783"
+      }
+    ]
+  },
+  "graph_sparse.py": {
+    "repository_source": "code/mitosync/rate_adaptation_20261025/prepare_graphs.py",
+    "original_sha256": "d24b7663f355fd95ed9ef730c1330ca06efea49d5db1ab6ada1e6e3c83607bc8",
+    "packaged_sha256": "2f8cb1b04175e437f3b277a88548322e461faaa4701d1ad3b7a9ab8309b03155",
+    "path_redacted": true,
+    "historical_hash_records": [
+      {
+        "receipt": "reports/rate_adaptation_20261025/evaluation_v1/PREPARED.json",
+        "receipt_sha256": "0e40a9b87bc766722510e77333dc132ea6afda137e27942c1c6065245f18c8e8"
+      }
+    ]
+  },
+  "image_parent_20261024/model.py": {
+    "repository_source": "code/mitosync/image_parent_20261024/model.py",
+    "original_sha256": "50af1bf37e216e2d07369de27e8f85678c1d68450e31e1ddaac93fa0d6be867b",
+    "packaged_sha256": "50af1bf37e216e2d07369de27e8f85678c1d68450e31e1ddaac93fa0d6be867b",
+    "path_redacted": false,
+    "historical_hash_records": [
+      {
+        "receipt": "reports/division_triplet_20261025/fullview_v1/PREPARED.json",
+        "receipt_sha256": "a011f54056e895e11f03cb5c141a37781e400af6e65ca559b3c08ef337646783"
+      },
+      {
+        "receipt": "reports/image_parent_20261024/PRETRAIN_VERIFIED.json",
+        "receipt_sha256": "1b39a33f78820f418cba8c3d4aee50bb426349aaee8c06c51cd63a4f4e517ca1"
+      },
+      {
+        "receipt": "reports/rate_adaptation_20261025/evaluation_v1/PREPARED.json",
+        "receipt_sha256": "0e40a9b87bc766722510e77333dc132ea6afda137e27942c1c6065245f18c8e8"
+      }
+    ]
+  },
+  "image_parent_20261024/train.py": {
+    "repository_source": "code/mitosync/image_parent_20261024/train.py",
+    "original_sha256": "c048b0875d38e3c86fbfa9b020f39602a3a85d52df1e5cd96140d7c18734a42d",
+    "packaged_sha256": "c048b0875d38e3c86fbfa9b020f39602a3a85d52df1e5cd96140d7c18734a42d",
+    "path_redacted": false,
+    "historical_hash_records": [
+      {
+        "receipt": "reports/division_triplet_20261025/fullview_v1/PREPARED.json",
+        "receipt_sha256": "a011f54056e895e11f03cb5c141a37781e400af6e65ca559b3c08ef337646783"
+      },
+      {
+        "receipt": "reports/image_parent_20261024/PRETRAIN_VERIFIED.json",
+        "receipt_sha256": "1b39a33f78820f418cba8c3d4aee50bb426349aaee8c06c51cd63a4f4e517ca1"
+      },
+      {
+        "receipt": "reports/rate_adaptation_20261025/evaluation_v1/PREPARED.json",
+        "receipt_sha256": "0e40a9b87bc766722510e77333dc132ea6afda137e27942c1c6065245f18c8e8"
+      }
+    ]
+  },
+  "image_parent_20261024/dataset.py": {
+    "repository_source": "code/mitosync/image_parent_20261024/dataset.py",
+    "original_sha256": "15e493a1b3fbbfb7f28730953749254273c192fdfab616d4dd2002e4e99f231c",
+    "packaged_sha256": "15e493a1b3fbbfb7f28730953749254273c192fdfab616d4dd2002e4e99f231c",
+    "path_redacted": false,
+    "historical_hash_records": [
+      {
+        "receipt": "reports/image_parent_20261024/PRETRAIN_VERIFIED.json",
+        "receipt_sha256": "1b39a33f78820f418cba8c3d4aee50bb426349aaee8c06c51cd63a4f4e517ca1"
+      },
+      {
+        "receipt": "reports/rate_adaptation_20261025/evaluation_v1/PREPARED.json",
+        "receipt_sha256": "0e40a9b87bc766722510e77333dc132ea6afda137e27942c1c6065245f18c8e8"
+      }
+    ]
+  },
+  "image_parent_20261024/prepare.py": {
+    "repository_source": "code/mitosync/image_parent_20261024/prepare.py",
+    "original_sha256": "fa7ac31a0de55a7b52b96808d5b0a4f6714f6a7a890520b08966712945ffac40",
+    "packaged_sha256": "fa7ac31a0de55a7b52b96808d5b0a4f6714f6a7a890520b08966712945ffac40",
+    "path_redacted": false,
+    "historical_hash_records": [
+      {
+        "receipt": "reports/image_parent_20261024/PRETRAIN_VERIFIED.json",
+        "receipt_sha256": "1b39a33f78820f418cba8c3d4aee50bb426349aaee8c06c51cd63a4f4e517ca1"
+      },
+      {
+        "receipt": "reports/rate_adaptation_20261025/evaluation_v1/PREPARED.json",
+        "receipt_sha256": "0e40a9b87bc766722510e77333dc132ea6afda137e27942c1c6065245f18c8e8"
+      }
+    ]
+  },
+  "multirate_parent_20261025/model.py": {
+    "repository_source": "code/mitosync/multirate_parent_20261025/model.py",
+    "original_sha256": "9a6336da959b970dca08cfe6838276b0383819b01cef8ff1c6cce51eef948f04",
+    "packaged_sha256": "9a6336da959b970dca08cfe6838276b0383819b01cef8ff1c6cce51eef948f04",
+    "path_redacted": false,
+    "historical_hash_records": [
+      {
+        "receipt": "reports/division_triplet_20261025/fullview_v1/PREPARED.json",
+        "receipt_sha256": "a011f54056e895e11f03cb5c141a37781e400af6e65ca559b3c08ef337646783"
+      }
+    ]
+  },
+  "multirate_parent_20261025/train.py": {
+    "repository_source": "code/mitosync/multirate_parent_20261025/train.py",
+    "original_sha256": "691badce0fb2a98243851b74cc44b8d789957cb7dc0cb0a566216537f3215406",
+    "packaged_sha256": "718ab8bd020fb122ebc409e501610f96fa81931d5f0de1d794816c7b9c0d7645",
+    "path_redacted": true,
+    "historical_hash_records": [
+      {
+        "receipt": "reports/multirate_parent_20261025/TRAINING_START_REQUEST.json",
+        "receipt_sha256": "4547f13b64a5ce082c6a10522d2dac87e14329df4b19dd13b8b63b5db9673b79"
+      }
+    ]
+  },
+  "multirate_parent_20261025/prepare.py": {
+    "repository_source": "code/mitosync/multirate_parent_20261025/prepare.py",
+    "original_sha256": "9bf8667c5dd58efdb6a873d729606c83da943b15354664bb9faa7efdc3f09111",
+    "packaged_sha256": "9bf8667c5dd58efdb6a873d729606c83da943b15354664bb9faa7efdc3f09111",
+    "path_redacted": false,
+    "historical_hash_records": [
+      {
+        "receipt": "reports/division_triplet_20261025/fullview_v1/PREPARED.json",
+        "receipt_sha256": "a011f54056e895e11f03cb5c141a37781e400af6e65ca559b3c08ef337646783"
+      }
+    ]
+  },
+  "multirate_parent_20261025/targets.py": {
+    "repository_source": "code/mitosync/multirate_parent_20261025/targets.py",
+    "original_sha256": "977658334cfaaba8dae1484e8cef6da9d79fcf6842d957f5503f12599e5bdf49",
+    "packaged_sha256": "977658334cfaaba8dae1484e8cef6da9d79fcf6842d957f5503f12599e5bdf49",
+    "path_redacted": false,
+    "historical_hash_records": [
+      {
+        "receipt": "reports/division_triplet_20261025/fullview_v1/PREPARED.json",
+        "receipt_sha256": "a011f54056e895e11f03cb5c141a37781e400af6e65ca559b3c08ef337646783"
+      },
+      {
+        "receipt": "reports/image_parent_20261024/PRETRAIN_VERIFIED.json",
+        "receipt_sha256": "1b39a33f78820f418cba8c3d4aee50bb426349aaee8c06c51cd63a4f4e517ca1"
+      },
+      {
+        "receipt": "reports/rate_adaptation_20261025/evaluation_v1/PREPARED.json",
+        "receipt_sha256": "0e40a9b87bc766722510e77333dc132ea6afda137e27942c1c6065245f18c8e8"
+      }
+    ]
+  }
+}

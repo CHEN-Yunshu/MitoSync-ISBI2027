@@ -1,0 +1,13 @@
+{
+  "purpose": "Post hoc reviewer-requested mechanism analysis; no method or hyperparameter selection",
+  "cohort": "All 36 previously accepted LFCT fields, five frozen seeds, native plus all eight sparse offsets",
+  "new_variants": ["R_no_guard", "R_greedy_no_guard", "RG_no_guard"],
+  "fixed": "Original graphs, candidates, masks, features, models, beta=0.5 native / 0.25 sparse, alpha=0, cap=3, set utility and existing metrics",
+  "no_guard": "Run the original ILP decoder with an empty reference graph, making the empty child set feasible for every parent",
+  "greedy_no_guard": "Enumerate the same nonempty child-set options and utility; greedily accept positive-utility options in descending utility order subject to one set per parent and one parent per child; unassigned parents choose empty. Deterministic ties by parent and sorted children. Same feasible set as no-guard ILP, with no thresholds or fitted parameters.",
+  "comparisons": ["R-R_no_guard", "RG-RG_no_guard", "R_no_guard-R_greedy_no_guard"],
+  "inference": "Six contrasts (three comparisons x two rates), 20000 paired field bootstrap draws stratified by cell line, random seed 20261103. Report 95% and Bonferroni six-test 99.1666667% intervals. Descriptive means per cell line, with no biological independence claim.",
+  "verification": "Recompute cached triplet scores from frozen checkpoints and features; verify original hashes and objectives; independently recompute event counts, constraints and objective. ILP objective must be at least greedy and at least original guarded objective.",
+  "scope": "Greedy is a solver ablation of our own objective, not a reproduction of Zyss et al. Their code is proprietary. No human annotation data are used or exported.",
+  "resources": "Four CPU workers, one numerical thread each, no GPU; preserve all historical results"
+}

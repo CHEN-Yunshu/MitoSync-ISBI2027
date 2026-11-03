@@ -1,0 +1,25 @@
+{
+  "version": "0.5.3",
+  "wheel_filename": "trackastra-0.5.3-py3-none-any.whl",
+  "wheel_url": "https://files.pythonhosted.org/packages/6e/c9/b55b28a789d16a4e4ff97277e7228b3490138a21da795b811f9df6597e62/trackastra-0.5.3-py3-none-any.whl",
+  "wheel_sha256": "071c42ddda7105c3e076362519f0bb0cd541edb92d8a92c0706349eb06c53b2d",
+  "source_files": {
+    "trackastra/tracking/tracking.py": {
+      "sha256": "cccc913c2bfcc9ef1f802ad71efe306509784c34b54802d831d373ce7ed997e0",
+      "historical_receipt": "division_triplet_20261025/fullview_v1/PREPARED.json"
+    },
+    "trackastra/tracking/track_graph.py": {
+      "sha256": "fbac6f207f789f0036511b64995df61fefd850af6746daf59ffd060be24c103a",
+      "historical_receipt": "division_triplet_20261025/fullview_v1/PREPARED.json"
+    },
+    "trackastra/model/predict.py": {
+      "sha256": "8e4dbdc7754a69b3c3a269560baa1d571480024c0f5874db3426e4f19841e880",
+      "historical_receipt": "division_triplet_20261025/fullview_v1/PREPARED.json"
+    },
+    "trackastra/model/model_api.py": {
+      "sha256": "1cde6283653b55c1eeec6c6c25ef227c4b147462a7f846caa80058bb34c44a33",
+      "historical_receipt": "division_triplet_20261025/fullview_v1/PREPARED.json"
+    }
+  },
+  "receipt_sha256": "a011f54056e895e11f03cb5c141a37781e400af6e65ca559b3c08ef337646783"
+}

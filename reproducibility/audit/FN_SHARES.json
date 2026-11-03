@@ -1,0 +1,12 @@
+{
+  "R_g1": {
+    "unmatched_endpoint_fraction_of_FN": 0.7214611872146119,
+    "matched_endpoint_fraction_of_FN": 0.2785388127853881,
+    "aggregation": "Ratio of equal-field mean counts, not mean field-specific FN ratios"
+  },
+  "R_g8": {
+    "unmatched_endpoint_fraction_of_FN": 0.5618156269056394,
+    "matched_endpoint_fraction_of_FN": 0.4381843730943606,
+    "aggregation": "Ratio of equal-field mean counts, not mean field-specific FN ratios"
+  }
+}

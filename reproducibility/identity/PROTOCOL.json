@@ -1,0 +1,17 @@
+{
+  "client_date": "2026-11-03",
+  "posthoc": true,
+  "selection": "All two late-mother conflicts and random six of twenty early-daughter conflicts; random.Random(20261103), sorted IDs, fixed before follow-up answers.",
+  "denominator": 8,
+  "frames": {
+    "M": 0,
+    "D1": 16,
+    "D2": 16
+  },
+  "point_rule": "Nearest integer pixel via floor(x+0.5), exact containing full training segmentation ID; no snapping, neighborhood search or tolerance.",
+  "identity_rule": "Mother equals programmed parent; unordered daughter IDs equal the two programmed daughters. Corrected labels are the primary training-label check; original labels are descriptive.",
+  "uncertainty_rule": "All eight remain in denominator; uncertain/lost, missing points, background and other assigned identities are separate. No imputation.",
+  "inference": "Conditional eight-case diagnostic only. No population accuracy estimate or significance test; no pooling with the original 17/39 to estimate accuracy.",
+  "original_answers_unchanged": true,
+  "raw_human_data_local_only": true
+}

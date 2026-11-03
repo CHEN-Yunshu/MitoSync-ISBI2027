@@ -1,0 +1,12 @@
+{
+  "status": "PASS_FIXED_ENDPOINT_AUDIT",
+  "cases": 8,
+  "summary_sha256": "d87845e53ab55a61e1947857140456fbab3341e4e0cef58746a3048740e9b200",
+  "protocol_sha256": "fbea5e32409b5cd5d187a546642bfe786989b667130a6507e507b0afa4ea23a8",
+  "source_sha256": "95378beee31758651ff12f54d3ce3c4ff331ef15b10d5959bf52d5446913a345",
+  "private_rows_sha256": "18c894646898fd53e9faf9a665bd8a37e5b6a6fd910c154006a2b4a1c7f945f4",
+  "original_72_unchanged": true,
+  "answers_modified": false,
+  "raw_human_data_uploaded": false,
+  "duplicate_packet_and_assets_match": true
+}

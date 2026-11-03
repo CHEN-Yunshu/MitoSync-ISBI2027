@@ -1,0 +1,28 @@
+# Local environments and generated outputs
+.venv/
+workspace/
+__pycache__/
+*.py[cod]
+.DS_Store
+*.log
+*.aux
+*.out
+*.blg
+# Raw data, models and human answers are released separately
+data/
+weights/
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.pickle
+*.tif
+*.tiff
+# Operational records belong in the private labbook
+reports/
+STATUS.md
+*.bundle
+*.bundle.part*
+.env
+.env.*

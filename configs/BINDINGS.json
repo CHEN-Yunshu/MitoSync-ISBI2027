@@ -1,0 +1,408 @@
+{
+  "schema": "mitosync-reviewed-config-export-v1",
+  "readback_utc": "2026-11-03T02:30:48.809178+00:00",
+  "server_operation": "read_only_exact_allowlist",
+  "remote_bytes": 41756,
+  "files": {
+    "image_parent_20261024/v1/scaling.npz": {
+      "kind": "parent_scaling",
+      "original_sha256": "37627232f4518a93a25aa6e1abf08cd92444c0bfbd4472b117e2f4d06483e8e1",
+      "packaged_sha256": "37627232f4518a93a25aa6e1abf08cd92444c0bfbd4472b117e2f4d06483e8e1",
+      "bytes_read": 876,
+      "bytes_packaged": 876,
+      "root_prefix_replaced": false,
+      "historical_sha256": "37627232f4518a93a25aa6e1abf08cd92444c0bfbd4472b117e2f4d06483e8e1"
+    },
+    "parent_fullview_20261024/v1/fluo/scaling.npz": {
+      "kind": "parent_scaling",
+      "original_sha256": "802dfc22f101762be85406e275b601c3d06add38cefe945c3e3b817ded7387d4",
+      "packaged_sha256": "802dfc22f101762be85406e275b601c3d06add38cefe945c3e3b817ded7387d4",
+      "bytes_read": 876,
+      "bytes_packaged": 876,
+      "root_prefix_replaced": false,
+      "historical_sha256": "802dfc22f101762be85406e275b601c3d06add38cefe945c3e3b817ded7387d4"
+    },
+    "runs/PhC-C2DL-PSC_ChHead_s1/config.yaml": {
+      "kind": "tracker_architecture",
+      "original_sha256": "1681109a71bc6962d401fceb6250658fa62cb69205b7ba80c8eea66c0cd99512",
+      "packaged_sha256": "1681109a71bc6962d401fceb6250658fa62cb69205b7ba80c8eea66c0cd99512",
+      "bytes_read": 290,
+      "bytes_packaged": 290,
+      "root_prefix_replaced": false,
+      "historical_sha256": "1681109a71bc6962d401fceb6250658fa62cb69205b7ba80c8eea66c0cd99512"
+    },
+    "runs/PhC-C2DL-PSC_ChHead_s1/train_config.yaml": {
+      "kind": "tracker_training",
+      "original_sha256": "ba26baedf28c03180ab7aa6ea082468080b7fb46065843c9641d7a424c63bebf",
+      "packaged_sha256": "7269cad3c12526fbae0f34d2a71ebe361a2b44ef86172c4823fef33936a0e668",
+      "bytes_read": 1349,
+      "bytes_packaged": 1209,
+      "root_prefix_replaced": true,
+      "historical_sha256": "ba26baedf28c03180ab7aa6ea082468080b7fb46065843c9641d7a424c63bebf"
+    },
+    "runs/PhC-C2DL-PSC_ChHead_s2/config.yaml": {
+      "kind": "tracker_architecture",
+      "original_sha256": "1681109a71bc6962d401fceb6250658fa62cb69205b7ba80c8eea66c0cd99512",
+      "packaged_sha256": "1681109a71bc6962d401fceb6250658fa62cb69205b7ba80c8eea66c0cd99512",
+      "bytes_read": 290,
+      "bytes_packaged": 290,
+      "root_prefix_replaced": false,
+      "historical_sha256": "1681109a71bc6962d401fceb6250658fa62cb69205b7ba80c8eea66c0cd99512"
+    },
+    "runs/PhC-C2DL-PSC_ChHead_s2/train_config.yaml": {
+      "kind": "tracker_training",
+      "original_sha256": "e1853066ebda5cd9b116f84c719df61a2db549dd1405af41291e785ca96b5767",
+      "packaged_sha256": "f3c5f7d3f4fd0849ccaf385d051f933950bfbbdcdb60148b470377bf712cb6c8",
+      "bytes_read": 1349,
+      "bytes_packaged": 1209,
+      "root_prefix_replaced": true,
+      "historical_sha256": "e1853066ebda5cd9b116f84c719df61a2db549dd1405af41291e785ca96b5767"
+    },
+    "runs/PhC-C2DL-PSC_ChHead_s3/config.yaml": {
+      "kind": "tracker_architecture",
+      "original_sha256": "1681109a71bc6962d401fceb6250658fa62cb69205b7ba80c8eea66c0cd99512",
+      "packaged_sha256": "1681109a71bc6962d401fceb6250658fa62cb69205b7ba80c8eea66c0cd99512",
+      "bytes_read": 290,
+      "bytes_packaged": 290,
+      "root_prefix_replaced": false,
+      "historical_sha256": "1681109a71bc6962d401fceb6250658fa62cb69205b7ba80c8eea66c0cd99512"
+    },
+    "runs/PhC-C2DL-PSC_ChHead_s3/train_config.yaml": {
+      "kind": "tracker_training",
+      "original_sha256": "e1830a281eda3ad9630bc0e2336c20218fb17d97157b9fbf7b57b3b66959fa04",
+      "packaged_sha256": "d94e360afe9cdfcb779a36564136f7d79ac038170ef0206333930f4fb85a8674",
+      "bytes_read": 1349,
+      "bytes_packaged": 1209,
+      "root_prefix_replaced": true,
+      "historical_sha256": "e1830a281eda3ad9630bc0e2336c20218fb17d97157b9fbf7b57b3b66959fa04"
+    },
+    "runs/PhC-C2DL-PSC_ChHead_s4/config.yaml": {
+      "kind": "tracker_architecture",
+      "original_sha256": "1681109a71bc6962d401fceb6250658fa62cb69205b7ba80c8eea66c0cd99512",
+      "packaged_sha256": "1681109a71bc6962d401fceb6250658fa62cb69205b7ba80c8eea66c0cd99512",
+      "bytes_read": 290,
+      "bytes_packaged": 290,
+      "root_prefix_replaced": false,
+      "historical_sha256": "1681109a71bc6962d401fceb6250658fa62cb69205b7ba80c8eea66c0cd99512"
+    },
+    "runs/PhC-C2DL-PSC_ChHead_s4/train_config.yaml": {
+      "kind": "tracker_training",
+      "original_sha256": "75b6cdf20e8a6e8fb09cc6897e41cbe167a96e9653cc1d0284fd6071b267ed79",
+      "packaged_sha256": "46d62fc98608c4ecb8b691646ae52d3ef32def81ee856c6fafb36bac027c9030",
+      "bytes_read": 1349,
+      "bytes_packaged": 1209,
+      "root_prefix_replaced": true,
+      "historical_sha256": "75b6cdf20e8a6e8fb09cc6897e41cbe167a96e9653cc1d0284fd6071b267ed79"
+    },
+    "runs/PhC-C2DL-PSC_ChHead_s5/config.yaml": {
+      "kind": "tracker_architecture",
+      "original_sha256": "1681109a71bc6962d401fceb6250658fa62cb69205b7ba80c8eea66c0cd99512",
+      "packaged_sha256": "1681109a71bc6962d401fceb6250658fa62cb69205b7ba80c8eea66c0cd99512",
+      "bytes_read": 290,
+      "bytes_packaged": 290,
+      "root_prefix_replaced": false,
+      "historical_sha256": "1681109a71bc6962d401fceb6250658fa62cb69205b7ba80c8eea66c0cd99512"
+    },
+    "runs/PhC-C2DL-PSC_ChHead_s5/train_config.yaml": {
+      "kind": "tracker_training",
+      "original_sha256": "1efae07c5dbd5e5d0401a9e98a93b64a62fbc01c44aab409e51d3eb5a5efda46",
+      "packaged_sha256": "301ade609fd254a372465bfff2fa840491c8ba859a6b9d3b0f92c8c12e12de3a",
+      "bytes_read": 1349,
+      "bytes_packaged": 1209,
+      "root_prefix_replaced": true,
+      "historical_sha256": "1efae07c5dbd5e5d0401a9e98a93b64a62fbc01c44aab409e51d3eb5a5efda46"
+    },
+    "runs/Fluo-N2DL-HeLa_ChHead_s1/config.yaml": {
+      "kind": "tracker_architecture",
+      "original_sha256": "1681109a71bc6962d401fceb6250658fa62cb69205b7ba80c8eea66c0cd99512",
+      "packaged_sha256": "1681109a71bc6962d401fceb6250658fa62cb69205b7ba80c8eea66c0cd99512",
+      "bytes_read": 290,
+      "bytes_packaged": 290,
+      "root_prefix_replaced": false,
+      "historical_sha256": "1681109a71bc6962d401fceb6250658fa62cb69205b7ba80c8eea66c0cd99512"
+    },
+    "runs/Fluo-N2DL-HeLa_ChHead_s1/train_config.yaml": {
+      "kind": "tracker_training",
+      "original_sha256": "20aff5fa955d4ac2152251b9dcf32cd847e63dad2499f57df6ae5a485cc0df36",
+      "packaged_sha256": "432ffc5c147af9d5676069a4c3a61d84c18ec9d0f548cb3c4e5ce2bf7525434b",
+      "bytes_read": 1359,
+      "bytes_packaged": 1219,
+      "root_prefix_replaced": true,
+      "historical_sha256": "20aff5fa955d4ac2152251b9dcf32cd847e63dad2499f57df6ae5a485cc0df36"
+    },
+    "runs/Fluo-N2DL-HeLa_ChHead_s2/config.yaml": {
+      "kind": "tracker_architecture",
+      "original_sha256": "1681109a71bc6962d401fceb6250658fa62cb69205b7ba80c8eea66c0cd99512",
+      "packaged_sha256": "1681109a71bc6962d401fceb6250658fa62cb69205b7ba80c8eea66c0cd99512",
+      "bytes_read": 290,
+      "bytes_packaged": 290,
+      "root_prefix_replaced": false,
+      "historical_sha256": "1681109a71bc6962d401fceb6250658fa62cb69205b7ba80c8eea66c0cd99512"
+    },
+    "runs/Fluo-N2DL-HeLa_ChHead_s2/train_config.yaml": {
+      "kind": "tracker_training",
+      "original_sha256": "a30e732454aa7dd10047f436cb5a21bbd534987d7b333cd32e9e297e089b6a5f",
+      "packaged_sha256": "926f1b26cccdf21bad4be78f13149b3301dfa9b4a009b472f744951cf0601d73",
+      "bytes_read": 1359,
+      "bytes_packaged": 1219,
+      "root_prefix_replaced": true,
+      "historical_sha256": "a30e732454aa7dd10047f436cb5a21bbd534987d7b333cd32e9e297e089b6a5f"
+    },
+    "runs/Fluo-N2DL-HeLa_ChHead_s3/config.yaml": {
+      "kind": "tracker_architecture",
+      "original_sha256": "1681109a71bc6962d401fceb6250658fa62cb69205b7ba80c8eea66c0cd99512",
+      "packaged_sha256": "1681109a71bc6962d401fceb6250658fa62cb69205b7ba80c8eea66c0cd99512",
+      "bytes_read": 290,
+      "bytes_packaged": 290,
+      "root_prefix_replaced": false,
+      "historical_sha256": "1681109a71bc6962d401fceb6250658fa62cb69205b7ba80c8eea66c0cd99512"
+    },
+    "runs/Fluo-N2DL-HeLa_ChHead_s3/train_config.yaml": {
+      "kind": "tracker_training",
+      "original_sha256": "0c22d3f862d2a6e43c4b79e5c716b67c609d010dc0c33821ab0bf43f12d2717a",
+      "packaged_sha256": "9ec3d440fdba1c080a215dd2a1692a0b9f47fe9c2f4ca129f46e05aa5bb03669",
+      "bytes_read": 1359,
+      "bytes_packaged": 1219,
+      "root_prefix_replaced": true,
+      "historical_sha256": "0c22d3f862d2a6e43c4b79e5c716b67c609d010dc0c33821ab0bf43f12d2717a"
+    },
+    "runs/Fluo-N2DL-HeLa_ChHead_s4/config.yaml": {
+      "kind": "tracker_architecture",
+      "original_sha256": "1681109a71bc6962d401fceb6250658fa62cb69205b7ba80c8eea66c0cd99512",
+      "packaged_sha256": "1681109a71bc6962d401fceb6250658fa62cb69205b7ba80c8eea66c0cd99512",
+      "bytes_read": 290,
+      "bytes_packaged": 290,
+      "root_prefix_replaced": false,
+      "historical_sha256": "1681109a71bc6962d401fceb6250658fa62cb69205b7ba80c8eea66c0cd99512"
+    },
+    "runs/Fluo-N2DL-HeLa_ChHead_s4/train_config.yaml": {
+      "kind": "tracker_training",
+      "original_sha256": "e7c8cfc4fe7ce4a24ae6cbc53270102ed4868ada0f2ea8fd4f190c5f19d08f16",
+      "packaged_sha256": "7a3b9b515ea9498e8d1afeb6e4ad659a6e5a06ecfe0ac36d95e3fb2fb1c99479",
+      "bytes_read": 1359,
+      "bytes_packaged": 1219,
+      "root_prefix_replaced": true,
+      "historical_sha256": "e7c8cfc4fe7ce4a24ae6cbc53270102ed4868ada0f2ea8fd4f190c5f19d08f16"
+    },
+    "runs/Fluo-N2DL-HeLa_ChHead_s5/config.yaml": {
+      "kind": "tracker_architecture",
+      "original_sha256": "1681109a71bc6962d401fceb6250658fa62cb69205b7ba80c8eea66c0cd99512",
+      "packaged_sha256": "1681109a71bc6962d401fceb6250658fa62cb69205b7ba80c8eea66c0cd99512",
+      "bytes_read": 290,
+      "bytes_packaged": 290,
+      "root_prefix_replaced": false,
+      "historical_sha256": "1681109a71bc6962d401fceb6250658fa62cb69205b7ba80c8eea66c0cd99512"
+    },
+    "runs/Fluo-N2DL-HeLa_ChHead_s5/train_config.yaml": {
+      "kind": "tracker_training",
+      "original_sha256": "9e5b6b38430b952233f03c4ac054fc38fe093f5ea5c4b5fa13c0f06d23070516",
+      "packaged_sha256": "c4f6de60e14d314f1bd960ed941472c97e784abb5890e09472d519f24358fb4a",
+      "bytes_read": 1359,
+      "bytes_packaged": 1219,
+      "root_prefix_replaced": true,
+      "historical_sha256": "9e5b6b38430b952233f03c4ac054fc38fe093f5ea5c4b5fa13c0f06d23070516"
+    },
+    "runs/PhC-C2DL-PSC_R18_s1/config.yaml": {
+      "kind": "tracker_architecture",
+      "original_sha256": "1681109a71bc6962d401fceb6250658fa62cb69205b7ba80c8eea66c0cd99512",
+      "packaged_sha256": "1681109a71bc6962d401fceb6250658fa62cb69205b7ba80c8eea66c0cd99512",
+      "bytes_read": 290,
+      "bytes_packaged": 290,
+      "root_prefix_replaced": false,
+      "historical_sha256": "1681109a71bc6962d401fceb6250658fa62cb69205b7ba80c8eea66c0cd99512"
+    },
+    "runs/PhC-C2DL-PSC_R18_s1/train_config.yaml": {
+      "kind": "tracker_training",
+      "original_sha256": "ca5e5868b40ce9ae570ae6ba44849918d260b0959da7f77eb0cc40657796d50f",
+      "packaged_sha256": "a61c59bbf26bcec6ff90ba81352865bdfd546c4dbddf073ad150aac69b9e740e",
+      "bytes_read": 1876,
+      "bytes_packaged": 1540,
+      "root_prefix_replaced": true,
+      "historical_sha256": "ca5e5868b40ce9ae570ae6ba44849918d260b0959da7f77eb0cc40657796d50f"
+    },
+    "runs/PhC-C2DL-PSC_R18_s2/config.yaml": {
+      "kind": "tracker_architecture",
+      "original_sha256": "1681109a71bc6962d401fceb6250658fa62cb69205b7ba80c8eea66c0cd99512",
+      "packaged_sha256": "1681109a71bc6962d401fceb6250658fa62cb69205b7ba80c8eea66c0cd99512",
+      "bytes_read": 290,
+      "bytes_packaged": 290,
+      "root_prefix_replaced": false,
+      "historical_sha256": "1681109a71bc6962d401fceb6250658fa62cb69205b7ba80c8eea66c0cd99512"
+    },
+    "runs/PhC-C2DL-PSC_R18_s2/train_config.yaml": {
+      "kind": "tracker_training",
+      "original_sha256": "084c40412748416d091b666836de017014abbdd36d013cfb315636be02a8b02a",
+      "packaged_sha256": "da6f40cd2fa5373d169ea00b36f2bee18d21310c8c214cb90ece8cdc5520f3a6",
+      "bytes_read": 1876,
+      "bytes_packaged": 1540,
+      "root_prefix_replaced": true,
+      "historical_sha256": "084c40412748416d091b666836de017014abbdd36d013cfb315636be02a8b02a"
+    },
+    "runs/PhC-C2DL-PSC_R18_s3/config.yaml": {
+      "kind": "tracker_architecture",
+      "original_sha256": "1681109a71bc6962d401fceb6250658fa62cb69205b7ba80c8eea66c0cd99512",
+      "packaged_sha256": "1681109a71bc6962d401fceb6250658fa62cb69205b7ba80c8eea66c0cd99512",
+      "bytes_read": 290,
+      "bytes_packaged": 290,
+      "root_prefix_replaced": false,
+      "historical_sha256": "1681109a71bc6962d401fceb6250658fa62cb69205b7ba80c8eea66c0cd99512"
+    },
+    "runs/PhC-C2DL-PSC_R18_s3/train_config.yaml": {
+      "kind": "tracker_training",
+      "original_sha256": "78d72a59ea641c1542077c9db1ee82c755dadbdfd93afbf1085faaceb079e52f",
+      "packaged_sha256": "93f5dad5c6d2192d946835f98dbcb59bca872725fa3fe4e556ea3d1f41fcf0fd",
+      "bytes_read": 1876,
+      "bytes_packaged": 1540,
+      "root_prefix_replaced": true,
+      "historical_sha256": "78d72a59ea641c1542077c9db1ee82c755dadbdfd93afbf1085faaceb079e52f"
+    },
+    "runs/PhC-C2DL-PSC_R18_s4/config.yaml": {
+      "kind": "tracker_architecture",
+      "original_sha256": "1681109a71bc6962d401fceb6250658fa62cb69205b7ba80c8eea66c0cd99512",
+      "packaged_sha256": "1681109a71bc6962d401fceb6250658fa62cb69205b7ba80c8eea66c0cd99512",
+      "bytes_read": 290,
+      "bytes_packaged": 290,
+      "root_prefix_replaced": false,
+      "historical_sha256": "1681109a71bc6962d401fceb6250658fa62cb69205b7ba80c8eea66c0cd99512"
+    },
+    "runs/PhC-C2DL-PSC_R18_s4/train_config.yaml": {
+      "kind": "tracker_training",
+      "original_sha256": "d89036d7d0beaca9cceb1df251839fa3686478ae02ea6437b19d66385c472c2c",
+      "packaged_sha256": "a13f052ef643da9cbf4ef66b79aa5378e4b9def14e2735debcc989b6310cdd86",
+      "bytes_read": 1876,
+      "bytes_packaged": 1540,
+      "root_prefix_replaced": true,
+      "historical_sha256": "d89036d7d0beaca9cceb1df251839fa3686478ae02ea6437b19d66385c472c2c"
+    },
+    "runs/PhC-C2DL-PSC_R18_s5/config.yaml": {
+      "kind": "tracker_architecture",
+      "original_sha256": "1681109a71bc6962d401fceb6250658fa62cb69205b7ba80c8eea66c0cd99512",
+      "packaged_sha256": "1681109a71bc6962d401fceb6250658fa62cb69205b7ba80c8eea66c0cd99512",
+      "bytes_read": 290,
+      "bytes_packaged": 290,
+      "root_prefix_replaced": false,
+      "historical_sha256": "1681109a71bc6962d401fceb6250658fa62cb69205b7ba80c8eea66c0cd99512"
+    },
+    "runs/PhC-C2DL-PSC_R18_s5/train_config.yaml": {
+      "kind": "tracker_training",
+      "original_sha256": "9cd7d70d2f5285f44a9b1a392ef3949db7b68d72b28411c7b4db4347a253307c",
+      "packaged_sha256": "4f2ded870ccb63ba03e4367c2f632caf3d5fbdee400eeff419cdd4ae4bf401f7",
+      "bytes_read": 1876,
+      "bytes_packaged": 1540,
+      "root_prefix_replaced": true,
+      "historical_sha256": "9cd7d70d2f5285f44a9b1a392ef3949db7b68d72b28411c7b4db4347a253307c"
+    },
+    "runs/Fluo-N2DL-HeLa_R18_s1/config.yaml": {
+      "kind": "tracker_architecture",
+      "original_sha256": "1681109a71bc6962d401fceb6250658fa62cb69205b7ba80c8eea66c0cd99512",
+      "packaged_sha256": "1681109a71bc6962d401fceb6250658fa62cb69205b7ba80c8eea66c0cd99512",
+      "bytes_read": 290,
+      "bytes_packaged": 290,
+      "root_prefix_replaced": false,
+      "historical_sha256": "1681109a71bc6962d401fceb6250658fa62cb69205b7ba80c8eea66c0cd99512"
+    },
+    "runs/Fluo-N2DL-HeLa_R18_s1/train_config.yaml": {
+      "kind": "tracker_training",
+      "original_sha256": "64362067140881ca4ad3c424f39242a2ddeb460bf183537becbdd92850c3d680",
+      "packaged_sha256": "b99d9d97d10153bf425a67ccbd0b2a09a2b4815b7caf2cc4dcb9170cc36306e4",
+      "bytes_read": 1900,
+      "bytes_packaged": 1564,
+      "root_prefix_replaced": true,
+      "historical_sha256": "64362067140881ca4ad3c424f39242a2ddeb460bf183537becbdd92850c3d680"
+    },
+    "runs/Fluo-N2DL-HeLa_R18_s2/config.yaml": {
+      "kind": "tracker_architecture",
+      "original_sha256": "1681109a71bc6962d401fceb6250658fa62cb69205b7ba80c8eea66c0cd99512",
+      "packaged_sha256": "1681109a71bc6962d401fceb6250658fa62cb69205b7ba80c8eea66c0cd99512",
+      "bytes_read": 290,
+      "bytes_packaged": 290,
+      "root_prefix_replaced": false,
+      "historical_sha256": "1681109a71bc6962d401fceb6250658fa62cb69205b7ba80c8eea66c0cd99512"
+    },
+    "runs/Fluo-N2DL-HeLa_R18_s2/train_config.yaml": {
+      "kind": "tracker_training",
+      "original_sha256": "05349e3bd4322022661d60d42132f749c9b1bb1e180278f3e734b677d8481de1",
+      "packaged_sha256": "43dcdf2e3c2e0e82916d2ba205fbea88268353d9e5b50ef0d682f312e45e1f90",
+      "bytes_read": 1900,
+      "bytes_packaged": 1564,
+      "root_prefix_replaced": true,
+      "historical_sha256": "05349e3bd4322022661d60d42132f749c9b1bb1e180278f3e734b677d8481de1"
+    },
+    "runs/Fluo-N2DL-HeLa_R18_s3/config.yaml": {
+      "kind": "tracker_architecture",
+      "original_sha256": "1681109a71bc6962d401fceb6250658fa62cb69205b7ba80c8eea66c0cd99512",
+      "packaged_sha256": "1681109a71bc6962d401fceb6250658fa62cb69205b7ba80c8eea66c0cd99512",
+      "bytes_read": 290,
+      "bytes_packaged": 290,
+      "root_prefix_replaced": false,
+      "historical_sha256": "1681109a71bc6962d401fceb6250658fa62cb69205b7ba80c8eea66c0cd99512"
+    },
+    "runs/Fluo-N2DL-HeLa_R18_s3/train_config.yaml": {
+      "kind": "tracker_training",
+      "original_sha256": "63305c1a6fb340202db89893bbe95e7d633dd038caa6d721bd723c0becacb129",
+      "packaged_sha256": "1b6896181e2cab6bfbf1334923164b158fd8221b805dfe105fd43fcc61ebf478",
+      "bytes_read": 1900,
+      "bytes_packaged": 1564,
+      "root_prefix_replaced": true,
+      "historical_sha256": "63305c1a6fb340202db89893bbe95e7d633dd038caa6d721bd723c0becacb129"
+    },
+    "runs/Fluo-N2DL-HeLa_R18_s4/config.yaml": {
+      "kind": "tracker_architecture",
+      "original_sha256": "1681109a71bc6962d401fceb6250658fa62cb69205b7ba80c8eea66c0cd99512",
+      "packaged_sha256": "1681109a71bc6962d401fceb6250658fa62cb69205b7ba80c8eea66c0cd99512",
+      "bytes_read": 290,
+      "bytes_packaged": 290,
+      "root_prefix_replaced": false,
+      "historical_sha256": "1681109a71bc6962d401fceb6250658fa62cb69205b7ba80c8eea66c0cd99512"
+    },
+    "runs/Fluo-N2DL-HeLa_R18_s4/train_config.yaml": {
+      "kind": "tracker_training",
+      "original_sha256": "e9b2439074173bf2c7f897e9a3d340355d5a3099cfb4d5aa1b55c69395a2a090",
+      "packaged_sha256": "0458e5a71747315877e859fb90774a9740c5c68c39def967c42ad3cbad424927",
+      "bytes_read": 1900,
+      "bytes_packaged": 1564,
+      "root_prefix_replaced": true,
+      "historical_sha256": "e9b2439074173bf2c7f897e9a3d340355d5a3099cfb4d5aa1b55c69395a2a090"
+    },
+    "runs/Fluo-N2DL-HeLa_R18_s5/config.yaml": {
+      "kind": "tracker_architecture",
+      "original_sha256": "1681109a71bc6962d401fceb6250658fa62cb69205b7ba80c8eea66c0cd99512",
+      "packaged_sha256": "1681109a71bc6962d401fceb6250658fa62cb69205b7ba80c8eea66c0cd99512",
+      "bytes_read": 290,
+      "bytes_packaged": 290,
+      "root_prefix_replaced": false,
+      "historical_sha256": "1681109a71bc6962d401fceb6250658fa62cb69205b7ba80c8eea66c0cd99512"
+    },
+    "runs/Fluo-N2DL-HeLa_R18_s5/train_config.yaml": {
+      "kind": "tracker_training",
+      "original_sha256": "00f4c1dfda350231c1cd9871880fe74a7228b6ac6c199678660e87827107c6d8",
+      "packaged_sha256": "9ac13968348b941f76d1722934462e437a555bea76b5bc70064fd3bad7f9e6c0",
+      "bytes_read": 1900,
+      "bytes_packaged": 1564,
+      "root_prefix_replaced": true,
+      "historical_sha256": "00f4c1dfda350231c1cd9871880fe74a7228b6ac6c199678660e87827107c6d8"
+    },
+    "multirate_parent_20261025/v2/psc/scaling.npz": {
+      "kind": "parent_scaling",
+      "original_sha256": "f159bee18af25feb0b0243e251bcd2417e66a94e294cf914e25e884dd73183c7",
+      "packaged_sha256": "f159bee18af25feb0b0243e251bcd2417e66a94e294cf914e25e884dd73183c7",
+      "bytes_read": 893,
+      "bytes_packaged": 893,
+      "root_prefix_replaced": false,
+      "historical_sha256": "f159bee18af25feb0b0243e251bcd2417e66a94e294cf914e25e884dd73183c7"
+    },
+    "multirate_parent_20261025/v2/fluo/scaling.npz": {
+      "kind": "parent_scaling",
+      "original_sha256": "26098f1be067b4887caf4fe3dbfe575b06e26d50f3af918bb9f97517c485f16d",
+      "packaged_sha256": "26098f1be067b4887caf4fe3dbfe575b06e26d50f3af918bb9f97517c485f16d",
+      "bytes_read": 891,
+      "bytes_packaged": 891,
+      "root_prefix_replaced": false,
+      "historical_sha256": "26098f1be067b4887caf4fe3dbfe575b06e26d50f3af918bb9f97517c485f16d"
+    }
+  },
+  "historical_receipt": "reports/division_triplet_20261025/fullview_v1/PREPARED.json",
+  "historical_receipt_sha256": "a011f54056e895e11f03cb5c141a37781e400af6e65ca559b3c08ef337646783",
+  "normalization_scope": "optional parent head only; pair descriptors are not standardized with these arrays",
+  "path_policy": "Only the exact machine-specific study-root prefix is replaced by STUDY_ROOT. All other bytes and YAML parameter values are retained. Architecture YAML and NPZ bytes are unchanged."
+}
