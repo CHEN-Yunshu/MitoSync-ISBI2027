@@ -1,15 +1,15 @@
 {
   "assets/architecture.png": {
-    "original_sha256": "892b760a6445ea24c12256c2a09b0c5ae858d97fac4f8e91bb189b530ec0bc95",
-    "packaged_sha256": "892b760a6445ea24c12256c2a09b0c5ae858d97fac4f8e91bb189b530ec0bc95",
+    "original_sha256": "6a57025d9d90b14fff7e0da3c78163293300554dae4d50a59aefc8b43ec54e33",
+    "packaged_sha256": "6a57025d9d90b14fff7e0da3c78163293300554dae4d50a59aefc8b43ec54e33",
     "path_portability_edit": false,
-    "source": "paper/figs/fig_arch_v54.png"
+    "source": "paper/figs/fig_arch_v53.png"
   },
   "assets/generated_examples.png": {
-    "original_sha256": "d2a902d9ce1b800b016ca94869a36e11e91b33ab9d7c18b912d707f7752cd6f7",
-    "packaged_sha256": "d2a902d9ce1b800b016ca94869a36e11e91b33ab9d7c18b912d707f7752cd6f7",
+    "original_sha256": "196af7c28b510c769eaba6ed660bc73d7f9ea9fba262e6dd424b16c44f9039dd",
+    "packaged_sha256": "196af7c28b510c769eaba6ed660bc73d7f9ea9fba262e6dd424b16c44f9039dd",
     "path_portability_edit": false,
-    "source": "paper/figs/fig_generated_v5.png"
+    "source": "paper/figs/fig_generated_v4.png"
   },
   "code/mitosync/build_head_clips.py": {
     "original_sha256": "def8749e76eb61da871889771d5621ebf1a0a892a3ef95d8fc437412b87a92d7",
@@ -542,18 +542,18 @@
     "source": "v72_snapshot/audit/upstream/LICENSE"
   },
   "paper/MitoSync.pdf": {
-    "original_sha256": "37f43f3b1017c9ca394307711579d96038e2a851af371fd67288bb8e489e2aff",
-    "packaged_sha256": "37f43f3b1017c9ca394307711579d96038e2a851af371fd67288bb8e489e2aff",
+    "original_sha256": "d4e0c26a2706aa746dbfacd2286c1e2d469df88ff1415866862995153731aa95",
+    "packaged_sha256": "d4e0c26a2706aa746dbfacd2286c1e2d469df88ff1415866862995153731aa95",
     "path_portability_edit": false,
-    "source": "paper/isbi/main_isbi_v73_20261103.pdf"
+    "source": "paper/isbi/main_isbi_v75_20261103.pdf"
   },
   "paper/latex_source.zip": {
-    "packaged_sha256": "9724e5d4eafe851709fcafc18f6a111b25e648b85204a77e26417955c6f58770",
+    "packaged_sha256": "79c6c01057a5d37a00b6ae591749cd66c35597507c6d413844c107f57211c7ba",
     "release_edits": [
-      "Remove LaTeX comments; bundle only used source and figures"
+      "Remove manuscript and bibliography comments; bundle only used source and figures"
     ],
-    "source": "paper/isbi/main_isbi_v73_20261103.tex",
-    "source_sha256": "b49341ea7531211512ab356d8a41f9057dad3ebe20acf984931aa153b9748024"
+    "source": "paper/isbi/main_isbi_v75_20261103.tex",
+    "source_sha256": "2e88a926a1f816f0350db55ee8b8a218fc6b826731469107c79e2b3e3bafd366"
   },
   "reproducibility/audit/FN_SHARES.json": {
     "original_sha256": "1e5d26fc1f354d3665f9e3b67326768288291ebd400e560c5b2c273c30f15cfe",

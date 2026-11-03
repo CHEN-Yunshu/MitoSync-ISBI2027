@@ -6,8 +6,9 @@ cells in Table 2 inherit the preceding component.
 
 - Table 1: method; PSC native/sparse and Fluo native/sparse F1 and CT.
 - Table 2: component and R/RG training; four CTC F1 conditions.
-- Table 3: LFCT event F1 at native/sparse rates. The first three rows compare the graph reference with Pair R/RG; the next three hold pair scores fixed and change the solver/continuity constraint.
-- Table 4: four CTC F1 conditions. The first three rows use Full with original sampling (Raw/RG/PM); the final two use Pair-only, matched-event direct painting and Render+M3.
+- Table 3: four CTC F1 conditions. The first three rows use Full with original sampling (Raw/RG/PM); the final two use Pair-only, matched-event direct painting and Render+M3.
+
+`lfct_summary.csv` preserves the LFCT native/sparse summary and fixed-score solver/continuity comparisons, which are reported in the text of the current manuscript. It is an additional summary, not a numbered paper table.
 
 R is real-only; RG is real plus generated training. Bold records displayed maxima,
 not statistical significance. Rounded equality is not an equivalence test.

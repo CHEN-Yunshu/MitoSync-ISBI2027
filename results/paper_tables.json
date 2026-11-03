@@ -1,6 +1,6 @@
 {
   "paper": "paper/MitoSync.pdf",
-  "paper_sha256": "37f43f3b1017c9ca394307711579d96038e2a851af371fd67288bb8e489e2aff",
+  "paper_sha256": "d4e0c26a2706aa746dbfacd2286c1e2d469df88ff1415866862995153731aa95",
   "tables": [
     {
       "table": 1,
@@ -63,28 +63,6 @@
           ".767 \u00b1 .032"
         ],
         [
-          "Pair (real only)",
-          ".874 \u00b1 .007",
-          ".670 \u00b1 .009",
-          ".749 \u00b1 .004",
-          ".656 \u00b1 .007",
-          ".954 \u00b1 .003",
-          ".884 \u00b1 .005",
-          ".909 \u00b1 .007",
-          ".848 \u00b1 .004"
-        ],
-        [
-          "Pair + MitoSync",
-          ".888 \u00b1 .006",
-          ".682 \u00b1 .004",
-          ".755 \u00b1 .003",
-          ".667 \u00b1 .004",
-          ".950 \u00b1 .002",
-          ".880 \u00b1 .005",
-          ".913 \u00b1 .007",
-          ".854 \u00b1 .004"
-        ],
-        [
           "Full (real only)",
           ".862 \u00b1 .006",
           ".671 \u00b1 .006",
@@ -116,6 +94,28 @@
           ".884 \u00b1 .006",
           ".909 \u00b1 .006",
           ".846 \u00b1 .003"
+        ],
+        [
+          "Pair (real only)",
+          ".874 \u00b1 .007",
+          ".670 \u00b1 .009",
+          ".749 \u00b1 .004",
+          ".656 \u00b1 .007",
+          ".954 \u00b1 .003",
+          ".884 \u00b1 .005",
+          ".909 \u00b1 .007",
+          ".848 \u00b1 .004"
+        ],
+        [
+          "Pair + MitoSync",
+          ".888 \u00b1 .006",
+          ".682 \u00b1 .004",
+          ".755 \u00b1 .003",
+          ".667 \u00b1 .004",
+          ".950 \u00b1 .002",
+          ".880 \u00b1 .005",
+          ".913 \u00b1 .007",
+          ".854 \u00b1 .004"
         ]
       ],
       "bold_column_indices": [
@@ -128,21 +128,21 @@
           5,
           6
         ],
+        [],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ],
         [
           1,
           2,
           3,
           7,
           8
-        ],
-        [
-          5,
-          6
-        ],
-        [],
-        [
-          4,
-          6
         ]
       ]
     },
@@ -217,59 +217,6 @@
     },
     {
       "table": 3,
-      "label": "tab:external",
-      "precision": "Printed paper values; not unrounded statistics",
-      "rows": [
-        [
-          "Trackastra graph",
-          ".140",
-          ".098"
-        ],
-        [
-          "Pair R, continuity",
-          ".130",
-          ".138"
-        ],
-        [
-          "Pair RG, continuity",
-          ".126",
-          ".141"
-        ],
-        [
-          "Pair R, ILP without continuity",
-          ".127",
-          ".141"
-        ],
-        [
-          "Pair R, greedy without continuity",
-          ".122",
-          ".126"
-        ],
-        [
-          "Pair RG, ILP without continuity",
-          ".123",
-          ".144"
-        ]
-      ],
-      "bold_column_indices": [
-        [
-          1
-        ],
-        [],
-        [
-          2
-        ],
-        [
-          1
-        ],
-        [],
-        [
-          2
-        ]
-      ]
-    },
-    {
-      "table": 4,
       "label": "tab:controls",
       "precision": "Printed paper values; not unrounded statistics",
       "rows": [

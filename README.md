@@ -1,6 +1,6 @@
 # MitoSync
 
-**Joint Mother–Daughter Association for Sparse Cell Tracking**
+**Programmable Division Supervision for Division-Aware Cell Tracking**
 
 Yunshu Chen · Zhenhua Chen · Deval Mehta · Litao Yang · Zongyuan Ge
 
@@ -14,12 +14,12 @@ renders microscopy video and aligns supervision with detected events.
 
 ## Main results
 
-On the two CTC evaluation sequences, the real-only Pair model improves sparse
-division F1 by **5.24 points on PSC** and **7.95 points on Fluo** relative to the
-Trackastra graph reference. On 36 external LFCT fields, the frozen real-only
-model improves sparse event F1 by **4.05 points**. Native LFCT gains are not
+On the two CTC evaluation sequences, Full + MitoSync improves sparse division F1
+by **5.25 points on PSC** and **7.93 points on Fluo** relative to the Trackastra
+graph reference. The real-only Pair model gains **5.24/7.95 points**, respectively.
+On 36 external LFCT fields, the frozen real-only model improves sparse event F1 by **4.05 points**. Native LFCT gains are not
 established. These are association comparisons, distinct from synthetic-training
-effects. The historical Full configuration remains as a component control.
+effects. Full uses both heads; Pair omits the optional parent head.
 
 Controlled experiments separate association, rendering, label alignment and
 sampling effects. Joint scoring and decoding provide the clearest tracking
@@ -53,8 +53,10 @@ current availability is listed in [Data and models](docs/DATA.md).
 
 ![Reference frames and generated microscopy examples](assets/generated_examples.png)
 
-Top: real references and generated images in phase contrast and fluorescence. Bottom: one generated PSC division with aligned masks. References
-supply appearance, not spatial correspondence or a target density.
+Top: real references and generated images in phase contrast, fluorescence and DIC.
+DIC examples are qualitative; tracking experiments use PSC and Fluo. Bottom: one
+generated PSC division with aligned masks. References supply appearance, not
+spatial correspondence or a target density.
 
 ## Repository contents
 

@@ -1,6 +1,5 @@
-Trackastra graph,.140,.098
-"Pair R, continuity",.130,.138
-"Pair RG, continuity",.126,.141
-"Pair R, ILP without continuity",.127,.141
-"Pair R, greedy without continuity",.122,.126
-"Pair RG, ILP without continuity",.123,.144
+Raw,.869 ± .006,.745 ± .005,.948 ± .005,.908 ± .006
+RG,.879 ± .003,.749 ± .005,.950 ± .002,.909 ± .006
+PM,.885 ± .005,.750 ± .004,.950 ± .002,.909 ± .007
+Direct paint,.884 ± .006,.754 ± .002,.946 ± .007,.916 ± .005
+Render+M3,.888 ± .006,.754 ± .003,.950 ± .002,.913 ± .006
