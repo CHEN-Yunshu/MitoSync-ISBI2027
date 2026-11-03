@@ -1,8 +1,10 @@
 {
   "paper": "paper/MitoSync.pdf",
+  "paper_sha256": "37f43f3b1017c9ca394307711579d96038e2a851af371fd67288bb8e489e2aff",
   "tables": [
     {
       "table": 1,
+      "label": "tab:lead",
       "precision": "Printed paper values; not unrounded statistics",
       "rows": [
         [
@@ -17,7 +19,7 @@
           ".683"
         ],
         [
-          "MAGIK",
+          "MAGIK (uniform)",
           ".770 \u00b1 .005",
           ".536 \u00b1 .007",
           ".454 \u00b1 .019",
@@ -61,39 +63,6 @@
           ".767 \u00b1 .032"
         ],
         [
-          "Full (real only)",
-          ".862 \u00b1 .006",
-          ".671 \u00b1 .006",
-          ".741 \u00b1 .003",
-          ".669 \u00b1 .004",
-          ".954 \u00b1 .003",
-          ".884 \u00b1 .005",
-          ".899 \u00b1 .008",
-          ".839 \u00b1 .005"
-        ],
-        [
-          "Full + SCF",
-          ".857 \u00b1 .009",
-          ".665 \u00b1 .009",
-          ".731 \u00b1 .005",
-          ".660 \u00b1 .004",
-          ".946 \u00b1 .007",
-          ".880 \u00b1 .005",
-          ".891 \u00b1 .006",
-          ".831 \u00b1 .003"
-        ],
-        [
-          "Full + MitoSync",
-          ".879 \u00b1 .003",
-          ".679 \u00b1 .002",
-          ".749 \u00b1 .005",
-          ".674 \u00b1 .004",
-          ".950 \u00b1 .002",
-          ".884 \u00b1 .006",
-          ".909 \u00b1 .006",
-          ".846 \u00b1 .003"
-        ],
-        [
           "Pair (real only)",
           ".874 \u00b1 .007",
           ".670 \u00b1 .009",
@@ -114,11 +83,72 @@
           ".880 \u00b1 .005",
           ".913 \u00b1 .007",
           ".854 \u00b1 .004"
+        ],
+        [
+          "Full (real only)",
+          ".862 \u00b1 .006",
+          ".671 \u00b1 .006",
+          ".741 \u00b1 .003",
+          ".669 \u00b1 .004",
+          ".954 \u00b1 .003",
+          ".884 \u00b1 .005",
+          ".899 \u00b1 .008",
+          ".839 \u00b1 .005"
+        ],
+        [
+          "Full + SCF-adapted",
+          ".857 \u00b1 .009",
+          ".665 \u00b1 .009",
+          ".731 \u00b1 .005",
+          ".660 \u00b1 .004",
+          ".946 \u00b1 .007",
+          ".880 \u00b1 .005",
+          ".891 \u00b1 .006",
+          ".831 \u00b1 .003"
+        ],
+        [
+          "Full + MitoSync",
+          ".879 \u00b1 .003",
+          ".679 \u00b1 .002",
+          ".749 \u00b1 .005",
+          ".674 \u00b1 .004",
+          ".950 \u00b1 .002",
+          ".884 \u00b1 .006",
+          ".909 \u00b1 .006",
+          ".846 \u00b1 .003"
+        ]
+      ],
+      "bold_column_indices": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          5,
+          6
+        ],
+        [
+          1,
+          2,
+          3,
+          7,
+          8
+        ],
+        [
+          5,
+          6
+        ],
+        [],
+        [
+          4,
+          6
         ]
       ]
     },
     {
       "table": 2,
+      "label": "tab:ablation",
       "precision": "Printed paper values; not unrounded statistics",
       "rows": [
         [
@@ -169,10 +199,78 @@
           ".950 \u00b1 .002",
           ".909 \u00b1 .006"
         ]
+      ],
+      "bold_column_indices": [
+        [],
+        [],
+        [],
+        [],
+        [
+          4
+        ],
+        [
+          2,
+          3,
+          5
+        ]
       ]
     },
     {
       "table": 3,
+      "label": "tab:external",
+      "precision": "Printed paper values; not unrounded statistics",
+      "rows": [
+        [
+          "Trackastra graph",
+          ".140",
+          ".098"
+        ],
+        [
+          "Pair R, continuity",
+          ".130",
+          ".138"
+        ],
+        [
+          "Pair RG, continuity",
+          ".126",
+          ".141"
+        ],
+        [
+          "Pair R, ILP without continuity",
+          ".127",
+          ".141"
+        ],
+        [
+          "Pair R, greedy without continuity",
+          ".122",
+          ".126"
+        ],
+        [
+          "Pair RG, ILP without continuity",
+          ".123",
+          ".144"
+        ]
+      ],
+      "bold_column_indices": [
+        [
+          1
+        ],
+        [],
+        [
+          2
+        ],
+        [
+          1
+        ],
+        [],
+        [
+          2
+        ]
+      ]
+    },
+    {
+      "table": 4,
+      "label": "tab:controls",
       "precision": "Printed paper values; not unrounded statistics",
       "rows": [
         [
@@ -209,6 +307,28 @@
           ".754 \u00b1 .003",
           ".950 \u00b1 .002",
           ".913 \u00b1 .006"
+        ]
+      ],
+      "bold_column_indices": [
+        [],
+        [
+          3,
+          4
+        ],
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          2,
+          3
         ]
       ]
     }

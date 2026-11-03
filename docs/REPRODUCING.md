@@ -4,7 +4,9 @@ Run `python scripts/verify_release.py` after installing `requirements-audit.txt`
 The verifier checks the file manifest, model/configuration bindings, four fitted
 normalization layouts, complete daughter exchange invariance, observed sparse
 frame indexing, candidate pruning, decoder consistency and LFCT scoring.
-It recalculates all 14,580 records and the specified confidence intervals.
+It recalculates all 14,580 LFCT records and the specified confidence intervals.
+It also checks 630 CTC views, 600 historical seed values and 104 historical
+control contrasts against the released counts and original statistical families.
 Twenty synthetic contract tests use no training images or model weights.
 
 The 36 retained LFCT fields, 17 exclusions and their reasons are in
@@ -13,7 +15,7 @@ because its mask is missing. Undefined zero-event F1 and deterministic ambiguous
 assignment handling are defined in [Methods](METHODS.md).
 
 `results/paper_tables.json` preserves the display precision and configuration
-labels of Tables 1–3; these rounded tables must not be used to reconstruct paired
+labels of Tables 1–4; these rounded tables must not be used to reconstruct paired
 confidence intervals. `reproducibility/` contains the unrounded records for its
 reported analyses, including null and negative contrasts.
 
@@ -35,3 +37,7 @@ The checks do not regenerate images, refit models or rerun full prediction.
 Those operations require the separately listed data and weights. Field-level
 intervals are not confirmed biological-replicate intervals. Seven matches in
 eight selected identity checks are a targeted diagnostic, not corpus accuracy.
+
+CTC temporal-tolerance scores and fixed-score continuity controls are documented
+in [CTC metrics](CTC_METRICS.md). These are retrospective controls on existing
+models, not new training or an independent CTC test.

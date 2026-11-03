@@ -1,8 +1,8 @@
 cff-version: 1.2.0
 message: "Please cite the MitoSync manuscript when using this work."
-title: "MitoSync: Programmable Division Supervision for Division-Aware Cell Tracking"
+title: "MitoSync: Joint Mother–Daughter Association for Sparse Cell Tracking"
 type: software
-version: "0.1.0"
+version: "0.2.0"
 repository-code: "https://github.com/CHEN-Yunshu/MitoSync-ISBI2027"
 authors:
   - family-names: Chen

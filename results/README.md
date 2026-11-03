@@ -1,14 +1,23 @@
-# Paper tables
+# Paper tables and CTC metrics
 
-These files are transcribed programmatically from the released LaTeX source.
-They preserve the reported precision and include every data row, including
-controls that do not improve performance.
+Tables are extracted from the released LaTeX source and preserve display precision.
+All data rows are included, including null and negative controls. Empty component
+cells in Table 2 inherit the preceding component.
 
-- Table 1: method; PSC native F1, CT; PSC sparse F1, CT; Fluo native F1, CT; Fluo sparse F1, CT.
-- Table 2: component; data (R or RG); PSC native/sparse F1; Fluo native/sparse F1. Blank component cells inherit the preceding component.
-- Table 3: data arm; PSC native/sparse F1; Fluo native/sparse F1. Raw/RG/PM use the full tracker and original sampling. Direct paint/Render+M3 use pair-only decoding with matched event budgets.
+- Table 1: method; PSC native/sparse and Fluo native/sparse F1 and CT.
+- Table 2: component and R/RG training; four CTC F1 conditions.
+- Table 3: LFCT event F1 at native/sparse rates. The first three rows compare the graph reference with Pair R/RG; the next three hold pair scores fixed and change the solver/continuity constraint.
+- Table 4: four CTC F1 conditions. The first three rows use Full with original sampling (Raw/RG/PM); the final two use Pair-only, matched-event direct painting and Render+M3.
 
-R means real-only training. RG means real plus generated training. Standard
-deviations are over seeds. Rounded equality is not an equivalence test.
-Bold formatting is not encoded as significance. See the paper for inference
-families and the full unrounded LFCT records in `reproducibility/`.
+R is real-only; RG is real plus generated training. Bold records displayed maxima,
+not statistical significance. Rounded equality is not an equivalence test.
+
+`ctc_association_metrics.json/csv` preserve 120 historical summaries and 600 seed
+values for BC(0), CT, TRA, DET, LNK and CHOTA. `ctc_temporal_continuity.json/csv`
+add BC(1)/BC(2), per-view TP/FP/FN, and the fixed-score continuity-off control.
+[CTC metrics](../docs/CTC_METRICS.md) defines aggregation and the follow-up scope.
+The [statistics map](../docs/STATISTICS.md) records comparison families and their
+interpretation. LFCT unrounded per-view counts remain in `reproducibility/`.
+
+`synthetic_controls.json` includes six historical control collections and 104
+paired contrasts, preserving original ordinary 95% intervals and Holm p-values.

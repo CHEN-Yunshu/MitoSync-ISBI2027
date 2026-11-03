@@ -1,6 +1,6 @@
 # MitoSync
 
-**Programmable Division Supervision for Division-Aware Cell Tracking**
+**Joint Mother–Daughter Association for Sparse Cell Tracking**
 
 Yunshu Chen · Zhenhua Chen · Deval Mehta · Litao Yang · Zongyuan Ge
 
@@ -14,11 +14,12 @@ renders microscopy video and aligns supervision with detected events.
 
 ## Main results
 
-On the two CTC evaluation sequences, the full model with MitoSync supervision
-improves sparse division F1 by **5.25 points on PSC** and **7.93 points on Fluo**
-relative to the Trackastra graph reference. On 36 external LFCT fields, the frozen
-real-only pair model improves sparse event F1 by **4.05 points**. These are system
-comparisons; they are distinct from gains due to synthetic training.
+On the two CTC evaluation sequences, the real-only Pair model improves sparse
+division F1 by **5.24 points on PSC** and **7.95 points on Fluo** relative to the
+Trackastra graph reference. On 36 external LFCT fields, the frozen real-only
+model improves sparse event F1 by **4.05 points**. Native LFCT gains are not
+established. These are association comparisons, distinct from synthetic-training
+effects. The historical Full configuration remains as a component control.
 
 Controlled experiments separate association, rendering, label alignment and
 sampling effects. Joint scoring and decoding provide the clearest tracking
@@ -40,20 +41,20 @@ python scripts/verify_release.py
 ```
 
 The verification runs on CPU, checks released file hashes and configurations,
-recomputes **14,580 per-view records**, and runs **20 input, inference and metric
-tests**. It does not require pretrained weights or microscopy images.
+recomputes **14,580 LFCT records**, **630 CTC views**, **600 historical seed values**
+and **104 historical contrasts**, and runs **20 input, inference and metric tests**.
+It does not require pretrained weights or microscopy images.
 
 For generation and model-training source, start with [Code guide](docs/CODE.md).
-Model checkpoints and the complete generated corpus are planned as separate
-downloads; they are not bundled or silently downloaded by this command.
+Model checkpoints and the complete generated corpus are not included. Their
+current availability is listed in [Data and models](docs/DATA.md).
 
 ## Generated examples
 
 ![Reference frames and generated microscopy examples](assets/generated_examples.png)
 
-Top: real references and generated images in phase contrast, fluorescence and
-DIC. Bottom: one generated PSC division with aligned masks. DIC is a qualitative
-example; tracking evaluation uses PSC and Fluo.
+Top: real references and generated images in phase contrast and fluorescence. Bottom: one generated PSC division with aligned masks. References
+supply appearance, not spatial correspondence or a target density.
 
 ## Repository contents
 
@@ -62,7 +63,7 @@ example; tracking evaluation uses PSC and Fluo.
 | `code/mitosync/`, `code/vace/` | Division programming, rendering, painting and label alignment |
 | `reproducibility/` | Pair model, decoder, training and inference source, metrics, raw evaluation counts and tests |
 | `configs/` | 20 Trackastra configuration pairs and four fitted parent normalization files |
-| `results/` | Machine-readable versions of the three paper tables |
+| `results/` | Machine-readable paper tables and additional CTC metrics |
 | `paper/` | Current manuscript and compilable LaTeX source |
 | `docs/`, `environments/` | Input definitions, evaluation protocol, usage and recorded environments |
 
@@ -73,8 +74,8 @@ No proceedings DOI is assigned in this repository.
 
 ## Availability and licenses
 
-Source and compact evaluation materials are provided here. Generated datasets and
-trained checkpoints will be added through versioned download links; see
-[Data and models](docs/DATA.md) for what is currently included. Third-party code
+Source, evaluation data, configurations and generated examples are public here.
+The complete generated corpus and trained checkpoints are not included; see
+[Data and models](docs/DATA.md) for the exact scope. Third-party code
 retains its original licenses in [NOTICE](NOTICE) and `licenses/`. A project-wide
 reuse license has not yet been assigned.

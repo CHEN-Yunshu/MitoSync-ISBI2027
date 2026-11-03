@@ -1,7 +1,8 @@
 # Methods and evaluation
 
 This implementation snapshot specifies the input construction and LFCT evaluation behind
-the paper. It adds no training runs, model selection or significance tests.
+the paper. The CTC continuity follow-up reuses frozen scores and changes only
+one decoder constraint; it adds no training or model selection.
 `reproducibility/reproducibility/source/` contains the relevant implementation. `SOURCE_BINDINGS.json` records
 original and packaged SHA-256 hashes; only infrastructure paths are replaced in
 the files marked `path_redacted`. Such orchestration files are inspectable source,
@@ -108,7 +109,46 @@ At inference, pairs are enumerated from the Trackastra candidate graph without
 ground-truth insertion. The exact sample-plan digests and original checkpoint
 hashes are included. The decoder protocol specifies all LFCT weights and controls.
 
-## 3. LFCT metric and exclusions
+## 3. CTC candidate graph, sparse reference and decoding
+
+Trackastra prediction uses edge_threshold=0.05. The graph contains all observed
+nodes, including isolated cells. For each source node, candidate children at
+the next observed frame are visited in increasing centroid distance. At most ten
+edges with retained Trackastra weights and distance <=256 pixels are added.
+Only these outgoing edges form inference daughter pairs. This differs from
+training candidate sampling, which may insert annotated positive triplets.
+The released `audit/upstream/trackastra/tracking/tracking.py` and
+`audit/source/graph_native.py`/`graph_sparse.py` specify the construction.
+
+For CTC sparse offset o, the kept frames are o+8j. An original track [begin,end]
+retains the indices of kept frames in that interval. Empty tracks are removed.
+An original parent ID is retained if that parent survives, otherwise it becomes
+zero. No ancestor is substituted for a removed parent. Masks are sampled at the
+same kept frames. The exact implementation is `source/lineage_projection.py`
+under `reproducibility/reproducibility/`; it differs from the explicit ancestry
+projection of LFCT XML annotations. Across eight offsets, the historical CTC
+reference contains a mean of 515.375 PSC and 86.0 Fluo divisions per view.
+These overlapping views are not independent biological samples.
+
+The child-set utility is zero for an empty set. For 1 <= |S| <= 3 it is
+sum(w_pc + alpha*r_pc) + beta*mean(q_p(a,b)) + 0.75*(2-|S|).
+The pair mean is zero for a singleton. Alpha=0 is the core Pair model; the
+historical Full control uses alpha=0.25. The 0.75 coefficient inherits the
+Trackastra deepcell_gt costs. The cap-three extension handles observed
+annotation branches. Averaging pair scores avoids increasing the number of
+pair contributions just because a set has more children. These design choices
+are fixed conventions, not experimentally established optima.
+
+The reference-retain (continuity) constraint makes the empty set infeasible
+for a parent with outgoing edges in the graph-reference solution. This solution
+uses the same observed inputs and no ground-truth lineage. It is a prediction-
+derived constraint, not an insertion of test labels. It can propagate baseline
+mistakes, which is why fixed-score ablations remove it by providing an empty
+reference graph. The LFCT solver control uses exactly the same scores, utility,
+feasible set and node set for ILP and greedy. It is not a reproduction of the
+representation learning or complete tracking algorithm of Zyss et al.
+
+## 4. LFCT metric and exclusions
 
 The metric is exact binary mother–daughter event F1 under centroid-in-mask
 assignment. It is not CTC BC(0), and its absolute values should not be compared
@@ -171,7 +211,7 @@ cohort. Well, culture and acquisition-batch mappings are unavailable in the
 local evidence, so field independence and biological replication are not
 established. Cell-line direction consistency does not resolve that limitation.
 
-## 4. What limits the absolute LFCT score?
+## 5. What limits the absolute LFCT score?
 
 For each view let G be binary ground-truth events, C the events with all three
 endpoints mapped to solution nodes, and TP the correctly linked events. Then
@@ -202,7 +242,7 @@ end-to-end lineage recovery. All arms and per-field quantities are in
 `LFCT_ENDPOINT_DECOMPOSITION.json`; `verify_repro.py` independently recalculates
 them from the included records. No new model or post-hoc threshold was selected.
 
-## 5. Configuration-specific image-feature effects
+## 6. Configuration-specific image-feature effects
 
 The full-minus-geometry changes below are percentage points from the unrounded
 five-seed summaries. Holm correction covers the eight comparisons together.
@@ -243,3 +283,15 @@ The table definitions above refer to files beneath `reproducibility/`.
 The raw per-view counts are preserved, including all comparison arms.
 Images, model checkpoints and complete generation corpora are not bundled.
 See [Data and models](DATA.md) and [Reproduction](REPRODUCING.md).
+
+## 7. Human-review scope
+
+The user confirmed that the one reviewer who completed all 72 cases and the
+8 time-aligned follow-ups is one of the five paper authors. This is a single-
+author review, with per-case M3 decisions hidden during annotation, not an
+independent external review. The confirmation changes the description of the
+reviewer relationship, not the recorded judgments, coordinates or statistics.
+No inter-rater agreement was measured. The 7/8 matches come from targeted
+time-conflict cases and are not a random estimate of corpus-wide identity
+accuracy. `PASS_INDEPENDENT_READBACK` in the historical receipt names an
+independent computational readback check; it does not describe reviewer status.

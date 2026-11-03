@@ -57,6 +57,8 @@ def main():
     r=ROOT/'reproducibility'
     for script in ['recompute.py','reproducibility/test_input_contract.py','audit/test_full_inference.py']:
         subprocess.run([sys.executable,str(r/script)],cwd=r,check=True)
-    print('PASS: public release hashes, 44 configurations, 14,580 records and 20 contract tests; no end-to-end prediction replay.')
+    subprocess.run([sys.executable,str(ROOT/'scripts/verify_ctc_metrics.py')],check=True)
+    subprocess.run([sys.executable,str(ROOT/'scripts/verify_controls.py')],check=True)
+    print('PASS: public release hashes, 44 configurations, 14,580 LFCT records, 630 CTC views, 600 historical seed values and 20 contract tests; no end-to-end prediction replay.')
 
 if __name__=='__main__':main()
